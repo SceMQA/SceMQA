@@ -76,7 +76,7 @@ Should you encounter any data samples potentially breaching the copyright or lic
 
 **BibTeX:**
 ```bibtex
-@article{,
+@article{
   title={SceMQA: A Scientific College Entrance Level Multimodal Question Answering Benchmark},
   author={Zhenwen Liang, Kehan Guo, Gang Liu, Taicheng Guo, Yujun Zhou, Tianyu
   Yang, Jiajun Jiao, Renjie Pi, Jipeng Zhang, Xiangliang Zhang},
