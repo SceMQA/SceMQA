@@ -1,0 +1,1106 @@
+{
+    "Math_Free_Response": [
+        {
+            "Question": "A basketball team has the following heights and weights. What is the height for the 25th percentile? (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{69.5} The height for the 25th percentile is the same as the first quartile. That is 69.5, the median from the lower half of the data.",
+            "ImagePath": "Math_Free_Response/1"
+        },
+        {
+            "Question": "The following is a sample of butterfly wingspans measured in millimeters. What wingspan is the 75th percentile? (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{39} The third quartile is the same as the 75th percentile. 39 is the wingspan for the 75th percentile.",
+            "ImagePath": "Math_Free_Response/2"
+        },
+        {
+            "Question": "A study on grade inflation published this scatter plot with the least-squares regression line. Estimate the linear model shown and predict the GPA in the year 2016. (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{3.71} Slope is (3.55-3.35)/(2000-1980) = 0.01, then we get b = -16.45. When x = 2016, y = 3.71.",
+            "ImagePath": "Math_Free_Response/3"
+        },
+        {
+            "Question": "By using the values in the dataset, solve the problems below. Find the least-squares regression line. Make a prediction when x = 900. (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{33.31%} The regression equation is y = 0.0026 + 0.000373x. Based on these values, the value for x = 900 would be 33.31%.",
+            "ImagePath": "Math_Free_Response/4"
+        },
+        {
+            "Question": "In a contest at a state fair, participants tried to see how many times in a row they could throw a football through a determined space until they missed. The company running the contest compiled the following data during the entire fair. If a participant was randomly selected, how many throws would you expect him or her to make before missing?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{3.397} \\answer{3} \\answer{4} The question is asking for the expected value, which is also known as the mean of the probability distribution. Using the formula 1(0.13) + 2(0.18) + 3(0.31) + 4(0.15) + 5(0.10) + 6(0.07) + 7(0.05) + 8(0.01) + 9(0.003) = 3.397, we would expect someone to throw between three and four times before missing.",
+            "ImagePath": "Math_Free_Response/5"
+        },
+        {
+            "Question": "A Sonoma County blood bank ran a blood drive on the northern California coast and compiled the following frequency tabulation from the donors. Calculate P(type A). (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{0.4} P = 116/290",
+            "ImagePath": "Math_Free_Response/6"
+        },
+        {
+            "Question": "A Sonoma County blood bank ran a blood drive on the northern California coast and compiled the following frequency tabulation from the donors. Calculate P(Rh-pos). (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{0.8379} P = 243/290",
+            "ImagePath": "Math_Free_Response/6"
+        },
+        {
+            "Question": "A Sonoma County blood bank ran a blood drive on the northern California coast and compiled the following frequency tabulation from the donors.Calculate P(not type O). (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{0.5517} P = 1-130/290",
+            "ImagePath": "Math_Free_Response/6"
+        },
+        {
+            "Question": "A Sonoma County blood bank ran a blood drive on the northern California coast and compiled the following frequency tabulation from the donors. Calculate P(type O or type AB). (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{0.4897} P = (130+12)/290",
+            "ImagePath": "Math_Free_Response/6"
+        },
+        {
+            "Question": "A Sonoma County blood bank ran a blood drive on the northern California coast and compiled the following frequency tabulation from the donors. Calculate P(type O or Rh-neg). (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{0.5414} P = (130+47-20)/290",
+            "ImagePath": "Math_Free_Response/6"
+        },
+        {
+            "Question": "Two biomedical statistics classes offered in different semesters produced the following scores on the first quiz. Let the scores from Course #1 be the random variable X and the scores from Course #2 be the random variable Y. Calculate the standard deviation from class 1. (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{1.9}",
+            "ImagePath": "Math_Free_Response/7"
+        },
+        {
+            "Question": "Two biomedical statistics classes offered in different semesters produced the following scores on the first quiz. Let the scores from Course #1 be the random variable X and the scores from Course #2 be the random variable Y.  Assuming that the distribution for this quiz is normal, find the score of the 90th percentile in Course #1 and Course #2. If this is an indication of the level of difficulty of these courses, in which class is it easier to get a 90% or above? (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{1} It appears that Course #2 has a lower score for its 90th percentile which would indicate that it has a higher level of difficulty. This means that Course #1 appears to be easier.",
+            "ImagePath": "Math_Free_Response/7"
+        },
+        {
+            "Question": "The table below shows data from Canadian and U.S. ninth-grader test scores. Determine the lower bound of the 95% confidence interval in terms of the values above. (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{3.78} The confidence interval is 4.5 \u00b1 0.719",
+            "ImagePath": "Math_Free_Response/8"
+        },
+        {
+            "Question": "A small nonprofit that assists at-risk children in afterschool programs conducts a study of two different neighborhoods to determine whether there is a difference in the proportion of families with children living below the poverty line. Is there evidence of a difference between the two neighborhoods? (Yes or No)",
+            "Answer (final answer highlighted)": "\\answer{Yes} For Neighborhood 1, the point estimate is 258/392 = 0.6582; for Neighborhood 2, the point estimate is 481/517 = 0.9304.To determine if there is a statistically significant difference, a test of H0: p1 = p2 versus Ha: p1 \u2260 p2 should be performed. This two-proportion z-test yields a p-value of approximately zero, which is strong evidence to reject the null hypothesis at any significance level. Therefore, there is strong evidence of a difference in the proportions.",
+            "ImagePath": "Math_Free_Response/9"
+        },
+        {
+            "Question": "Suppose that the data below were collected from a sample of gas stations in Indiana. Using the 95% confidence interval for the percentage of all gas stations in Indiana selling E85, would the null hypothesis H0 : p = 0.61 be rejected at the 5% level? (Yes or No)",
+            "Answer (final answer highlighted)": "\\answer{No} The interval can be calculated using the formula for a one-proportion confidence interval or by using 1-prop Z interval on the TI83/84. The resulting interval is (0.562, 0.656). This null hypothesis would not be rejected since 0.61 is in the 95% confidence.",
+            "ImagePath": "Math_Free_Response/10"
+        },
+        {
+            "Question": "A vitamin supplement is purported to increase the short-term memory of those who take it. To determine whether this statement is valid, researchers had a sample of nine individuals take a memory test both with and without the supplement. The test had the participants recite a list of 50 short words right after hearing the list, and a different list was used for each part of the experiment. The data collected are below. Assuming the necessary conditions hold, is there convicing evidence (p-value<0.1) that the supplement increased the number of words correctly recalled? (Yes or No)",
+            "Answer (final answer highlighted)": "\\answer{No} To answer this question, a paired-samples t-test must be performed with the hypotheses H0: \u03bcd \u2265 0 versus Ha: \u03bcd < 0. The resulting p-value is 0.1352, which is not significant at the 5% or 10% levels. Therefore, there is not convincing evidence that the number of words recalled was increased.",
+            "ImagePath": "Math_Free_Response/11"
+        },
+        {
+            "Question": "A regression analysis on a sample of 23 16-ounce cereal box prices (in dollars) and sugar content (in grams) produced the following computer output. The regression equation is: Price = 2.22 + 0.140. Based on the 95% confidence interval for the true slope of the regression line, is the regression significant at the 5% level? (Yes or No)",
+            "Answer (final answer highlighted)": "\\answer{No} Since the independent variable is sugar, we use the information on that line of the computer output. A 95% confidence interval would therefore be 0.14011 \u00b1 (0.07797)(2.080) where 2.080 is the critical value associated with this level of confidence and 21 degrees of freedom. The interpretation provides a description of the slope in terms of the data being modeled: we are 95% confident that every one-gram increase in sugar will result in an average change in price of between -$0.02 and $0.30. Therefore, The regression would be found not to be significant since the confidence interval contains zero.",
+            "ImagePath": "Math_Free_Response/12"
+        },
+        {
+            "Question": "A sample of car owners were surveyed and asked whether or not they had owned their vehicle for more than 5 years and also whether it was a car, a truck, or an SUV (with crossovers and similar vehicles being classified as SUVs). The null hypothesis is that there is no association between the two variables. As in all hypothesis tests, we use the null hypothesis to state the expected values of the proportions. If a car owner from this sample was selected at random, what is the probability that he or she has owned his or her primary vehicle for 5 or fewer years? (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{0.6} This involves simply calculating the total number of cars owned for 5 or fewer years, which is 120, divided by the total number of cars, which is 200. The final result is 0.6.",
+            "ImagePath": "Math_Free_Response/13"
+        },
+        {
+            "Question": "A sample of car owners were surveyed and asked whether or not they had owned their vehicle for more than 5 years and also whether it was a car, a truck, or an SUV (with crossovers and similar vehicles being classified as SUVs). The null hypothesis is that there is no association between the two variables. As in all hypothesis tests, we use the null hypothesis to state the expected values of the proportions. If a car owner from this sample was selected at random, what is the probability that he or she owns a car? (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{0.15} This is calculated by summing all of the car owners, which is 20 + 10, divided by the size of the sample, which is 200. The final result is 0.15.",
+            "ImagePath": "Math_Free_Response/13"
+        },
+        {
+            "Question": "In a recent survey taken about the major channels on TV, it was found that channels 2, 3, 4, and 5 captured 30%, 25%, 20%, and 25% of the audience, respectively. During the first week of the new season, 500 viewers were interviewed. Suppose that the actual observed numbers are as follows. Are the differences significant? (Yes or No)",
+            "Answer (final answer highlighted)": "\\answer{No} We note that the expected values (150,125,100,125) are all > 5.\n\nH0: The TV audience is distributed over Channels 2, 3, 4, and 5 with percentages 30%, 25%, 20%, and 25%, respectively.\n\nHa: the audience distribution is not 30%, 25, 20%, and 25%, respectively\n\nWe calculate the chi-square = 5.167. To use the chi-square at a 10% significance level with df = 3, the critical chi-square-value is 6.25. Since 5.167 < 6.25, there is not significant evidence to reject H0.",
+            "ImagePath": "Math_Free_Response/14"
+        },
+        {
+            "Question": "Let $ g(t) = \\int_{0}^{t} f(x) , dx $ and consider the graph of $ f $ shown below. Evaluate $ g(6) $. \n(Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{7} $g(6) = \\int_{0}^{6} f(x) , dx = \\int_{0}^{2} (4 - 4x) , dx + \\int_{2}^{3} (2x - 8) , dx + \\int_{3}^{5} (4x - 14) , dx + \\int_{5}^{6} 6 , dx = 0 + (-3) + 4 + 6 = 7.$",
+            "ImagePath": "Math_Free_Response/15"
+        },
+        {
+            "Question": "Let $ g(t) = \\int_{0}^{t} f(x) , dx $ and consider the graph of $ f $ shown below. At what value(s) of t does g have a minimum value? (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{3.5}  At $t = \\frac{7}{2}$, $g$ has a minimum value. $g(0) = 0$, $g\\left(\\frac{7}{2}\\right) = -\\frac{7}{2}$, $g(6) = 7$",
+            "ImagePath": "Math_Free_Response/15"
+        },
+        {
+            "Question": "Let $ g(t) = \\int_{0}^{t} f(x) , dx $ and consider the graph of $ f $ shown below. How long is the interval where g concave down? (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{2} Since $g''(t) = f(t)$ is decreasing only on $(0, 2)$, you see that $g''(x) < 0$ on this interval. Therefore, $g$ is concave down only on $(0, 2)$.",
+            "ImagePath": "Math_Free_Response/15"
+        },
+        {
+            "Question": "There is an area $ A $ bounded by the curve and the x-axis. Use a right-hand Riemann sum to find area $ A $ on the interval from $ x = 0 $ to $ x = 4 $, using 4 subdivisions of equal length. (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{30} The size of the subdivision is given by $\\Delta x_i = \\frac{4 - 0}{4} = 1$. Then make a table of values for $f(x)$.\n\n\\begin{tabular}{c | c}\nx & f(x) \\\n\\hline\n0 & 0 \\\n1/2 & 1/4 \\\n1 & 1 \\\n3/2 & 9/4 \\\n2 & 4 \\\n5/2 & 25/4 \\\n3 & 9 \\\n7/2 & 49/4 \\\n4 & 16 \\\n\\end{tabular}\n\nNow compute $A = \\sum_{i=1}^{4} f(c_i)\\Delta x_i = 1(1) + 4(1) + 9(1) + 16(1) = 30$.\n",
+            "ImagePath": "Math_Free_Response/16"
+        },
+        {
+            "Question": "There is an area $ A $ bounded by the curve and the x-axis. Find the area $ A $ on the interval from $ x = 0 $ to $ x = 4 $ using 8 subdivisions of equal length. \n(Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{25.5} Now $\\Delta x_i = \\frac{4 - 0}{8} = \\frac{1}{2}$. Then $A = \\sum_{i=1}^{8} f(c_i)\\Delta x_i = \\frac{1}{4}\\left( \\frac{1}{2} \\right) + \\frac{25}{4}\\left( \\frac{1}{2} \\right) + 9\\left( \\frac{1}{2} \\right) + \\frac{49}{4}\\left( \\frac{1}{2} \\right) + 16\\left( \\frac{1}{2} \\right) = \\frac{1}{8} + \\frac{25}{8} + \\frac{9}{2} + \\frac{49}{8} + \\frac{64}{8} = \\frac{1}{8} + \\frac{25}{8} + \\frac{36}{8} + \\frac{49}{8} + \\frac{64}{8} = 25 \\frac{1}{2}$.\n",
+            "ImagePath": "Math_Free_Response/16"
+        },
+        {
+            "Question": "There is an area $ A $ bounded by the curve and the x-axis. Now find area $ A $ by integrating $ f(x) $ over the interval $ (0, 4) $. (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{ 7} The area $A = \\int_{0}^{4} x^2 dx = \\left[ \\frac{1}{3} x^3 \\right]_{0}^{4} = \\frac{64}{3} - \\frac{1}{3} \\cdot 0 = \\frac{21}{3}$.\n",
+            "ImagePath": "Math_Free_Response/16"
+        },
+        {
+            "Question": "Consider a triangle in the xy-plane with vertices at $ A = (0, 1) $, $ B = (2, 3) $, and $ C = (3, 1) $. Let $ R $ denote the region that is bounded by the triangle shown in the figure below. Find the volume of the solid obtained by rotating $ R $ about the x-axis. (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{31.416} The line segment AB is defined by the equation $ y = x + 1 $ for $ 0 \\leq x \\leq 2 $, the line segment BC is given by $ y = -2x + 7 $ for $ 2 \\leq x \\leq 3 $, while AC is simply $ y = 1 $.\n\nNote that each cross-section perpendicular to the x-axis is a washer with inner radius 1, outer radius $ x + 1 $ for $ 0 \\leq x \\leq 2 $, and outer radius $ 7 - 2x $ for $ 2 \\leq x \\leq 3 $. Therefore, the volume of the solid is given by the integral:\n\n$ \\pi \\left( \\int_{0}^{2} [(x+1)^2 - 1]^2 dx + \\int_{2}^{3} [(7-2x)^2 - 1]^2 dx \\right) = \\pi \\left( \\int_{0}^{2} \\frac{(x+1)^3}{3} - x + \\int_{2}^{3} \\frac{(7-2x)^3}{6} - x \\right) = \\pi \\left( (9 - 2) - \\frac{1}{3} + \\left( \\frac{1}{6} (27 - 3) + \\frac{27}{6} + 2 \\right) \\right) = \\pi \\left( \\frac{21}{3} - \\frac{1}{3} + \\left( \\frac{-1}{6} - \\frac{18}{6} \\right) + \\left( \\frac{27}{6} + \\frac{12}{6} \\right) \\right) = \\pi \\left( \\frac{20}{3} + \\frac{20}{6} \\right) = \\frac{30\\pi}{3} = 10\\pi $",
+            "ImagePath": "Math_Free_Response/17"
+        },
+        {
+            "Question": "Consider a triangle in the xy-plane with vertices at $ A = (0, 1) $, $ B = (2, 3) $, and $ C = (3, 1) $. Let $ R $ denote the region that is bounded by the triangle shown in the figure below. Find the volume of the solid obtained by rotating $ R $ about the y-axis. (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{31.416} Observe that AB may be written as $ x = y - 1 $ and BC as $ x = \\frac{7-y}{2} $ for $ 1 \\leq y \\leq 3 $. Therefore, revolving $ R $ about the y-axis is the value of the following integral: $ \\pi \\int_{1}^{3} \\left( \\frac{7 - y}{2} \\right)^2 - (y - 1)^2 dy = \\frac{\\pi}{4} \\int_{1}^{3} (7 - y)^2 dy - \\pi \\int_{1}^{3} (y - 1)^2 dy $. Next, you let $ u = 7 - y $ in the first integral above, noting that under this substitution $ -du = dy $. Therefore, the integral becomes $ \\frac{\\pi}{4} \\int_{y=1}^{y=3} u^2 du - \\pi \\int_{y=1}^{y=3} (y - 1)^2 dy = \\frac{\\pi}{4} \\left[ \\frac{1}{3} u^3 \\right]{y=1}^{y=3} - \\frac{\\pi}{3} \\left[ (y - 1)^3 \\right]{y=1}^{y=3} = \\frac{\\pi}{4} \\left[ \\frac{1}{3} (7 - y)^3 \\right]{1}^{3} - \\frac{\\pi}{3} \\left[ \\frac{1}{3} (y - 1)^3 \\right]{1}^{3} = \\frac{\\pi}{4} \\left[ \\frac{1}{3} (4^3 - 6^3) \\right] - \\frac{\\pi}{3} \\left[ \\frac{1}{3} (2^3) \\right] = \\frac{\\pi}{4} \\left( \\frac{-1}{12} (4^2 \\cdot 4 - 9 \\cdot 6) \\right) - \\frac{\\pi}{3} \\left( \\frac{-8}{3} \\right) = \\frac{\\pi}{4} \\left( \\frac{38}{3} - \\frac{8}{3} \\right) = 10\\pi $.\n",
+            "ImagePath": "Math_Free_Response/17"
+        },
+        {
+            "Question": "Consider a triangle in the xy-plane with vertices at $ A = (0, 1) $, $ B = (2, 3) $, and $ C = (3, 1) $. Let $ R $ denote the region that is bounded by the triangle shown in the figure below. Find the volume of the solid having R as its base while cross-sections perpendicular to the x-axis are squares.(Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{4} The area of each square cross-section from $ x = 0 $ to $ x = 2 $ is $ A_1(x) = (x + 1 - 1)^2 = x^2 $, while from $ x = 2 $ to $ x = 3 $, the area is given by $ A_2(x) = (-2x + 7 - 1)^2 = (6 - 2x)^2 = 4(x^2 - 6x + 9) $. Therefore, the volume of the described solid is $ \\int_{0}^{2} A_1(x) dx + \\int_{2}^{3} A_2(x) dx = \\int_{0}^{2} x^2 dx + \\int_{2}^{3} (4x^2 - 6x + 9) dx = \\left[ \\frac{1}{3} x^3 \\right]{0}^{2} + 4 \\left[ \\frac{1}{3} x^3 - 3x^2 + 9x \\right]{2}^{3} = \\left( \\frac{8}{3} \\right) + 4 \\left[ \\left( 9 - \\frac{27}{3} + 27 \\right) - \\left( \\frac{8}{3} - 12 + 18 \\right) \\right] = 4 \\left( \\frac{2}{3} \\right) + 4 \\left( 9 - \\frac{26}{3} \\right) = 4 \\left( 9 - \\frac{24}{3} \\right) = 4 \\left( 9 - 8 \\right) = 4 $\n",
+            "ImagePath": "Math_Free_Response/17"
+        },
+        {
+            "Question": "A social scientist sampled 140 people and classified them according to income level and whether they played a state lottery in the last month. The sample information is reported below. Is it reasonable to conclude that playing the lottery is related to income level? Use a 0.05 significance level. What is this table called? (Answer is a word.)",
+            "Answer (final answer highlighted)": "\\answer{Contingency table}  ",
+            "ImagePath": "Math_Free_Response/18"
+        },
+        {
+            "Question": "A media company plans to publish a special edition of a newspaper. Past experience shows that the number of newspapers the company will sell is described by the following table: What is the probability that the company will sell less than 250,000 newspapers?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{0.47}  The cost of selling this special edition is 100,000 for up to 260,000 newspapers and an additional flat cost of 10,000 if more are sold. What is the expected sum the company will spend to sell the special edition?\n",
+            "ImagePath": "Math_Free_Response/19"
+        },
+        {
+            "Question": "A sample of car owners were surveyed and asked whether or not they had owned their vehicle for more than 5 years and also whether it was a car, a truck, or an SUV (with crossovers and similar vehicles being classified as SUVs). The null hypothesis is that there is no association between the two variables. As in all hypothesis tests, we use the null hypothesis to state the expected values of the proportions. If a car owner from this sample was selected at random, what is the probability that he or she owns a car?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{0.14} This is calculated by summing all of the car owners, which is 20 + 10, divided by the size of the sample, which is 200. The final result is 0.15.",
+            "ImagePath": "Math_Free_Response/13"
+        },
+        {
+            "Question": "A sample of car owners were surveyed and asked whether or not they had owned their vehicle for more than 5 years and also whether it was a car, a truck, or an SUV (with crossovers and similar vehicles being classified as SUVs). The null hypothesis is that there is no association between the two variables. As in all hypothesis tests, we use the null hypothesis to state the expected values of the proportions. If a car owner from this sample was selected at random, what is the probability that he or she has owned his or her primary vehicle for 5 or fewer years?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{0.6}  This involves simply calculating the total number of cars owned for 5 or fewer years, which is 120, divided by the total number of cars, which is 200. The final result is 0.6.",
+            "ImagePath": "Math_Free_Response/13"
+        },
+        {
+            "Question": "Evaluate $ \\int_{C} 16y^5 , ds $ where $ C $ is the portion of $ x = y^4 $ from $ y = 0 $ to $ y = 1 $ followed by the line segment from $ (1, 1) $ to $ (1, -2) $ which in turn is followed by the line segment from $ (1, -2) $ to $ (2, 0) $. See the sketch below for the direction.\n(Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{ -351.1341} Now let's parameterize each of these curves.\n\n$C_1 : \\vec{r}(t) = \\langle t^4, t \\rangle \\quad 0 \\leq t \\leq 1$\n\n$C_2 : \\vec{r}(t) = \\langle (1 - t), 1 + t(1, -2) \\rangle = \\langle 1, 1 - 3t \\rangle \\quad 0 \\leq t \\leq 1$\n\n$C_3 : \\vec{r}(t) = \\langle (1 - t)(1, -2) + t(2, 0) \\rangle = \\langle 1 + t, 2t - 2 \\rangle \\quad 0 \\leq t \\leq 1$\n\nFor $C_2$, we had to use the vector form for the line segment between two points instead of the equation for the line (which is much simpler of course) because the direction was in the decreasing y direction and the limits on our integral must be from smaller to larger. We could have used the fact from the notes that tells us how the line integrals for the two directions related to allow us to use the equation of the line if we'd wanted to. We decided to do it this way just for the practice of dealing with the vector form for the line segment and it's not all that difficult to deal with the result and the limits are \u201cnicer\u201d.\n\nNote as well that for $C_3$ we could have solved for the equation of the line and used that because the direction is in the increasing x direction. However, the vector form for the line segment between two points is just as easy to use so we used that instead.\n\nOkay, we now need to compute the line integral along each of these curves. Unlike the first few problems in this section where we found the magnitude and the integrand prior to the integration step we\u2019re just going to jump straight into the integral and do all the work there.\n\nHere is the integral along each of the curves.\n\n$\\int_{C_1} 16y^5 , ds = \\int_{0}^{1} 16(t)^5 \\sqrt{(4t^3)^2 + (1)^2} , dt = \\int_{0}^{1} 16t^5 \\sqrt{16t^6 + 1} , dt$\n\n$= \\frac{1}{9}(16t^6 + 1)^{\\frac{3}{2}} \\Big|_{0}^{1} = \\frac{1}{9}(17^{\\frac{3}{2}} - 1) = 7.6770$\n\n$\\int_{C_2} 16y^5 , ds = \\int_{0}^{1} 16(1 - 3t)^5 \\sqrt{(0)^2 + (-3)^2} , dt = \\int_{0}^{1} 48(1 - 3t)^5 , dt$\n\n$= -\\frac{8}{3}(1 - 3t)^6 \\Big|_{0}^{1} = -168$\n\n$\\int_{C_3} 16y^5 , ds = \\int_{0}^{1} 16(2t - 2)^5 \\sqrt{(1)^2 + (2)^2} , dt = \\int_{0}^{1} 16\\sqrt{5}(2t - 2)^5 , dt$\n\n$= \\frac{4\\sqrt{5}}{3}(2t - 2)^6 \\Big|_{0}^{1} = -\\frac{256\\sqrt{5}}{3} = -190.8111$\n\nOkay, to finish this problem out all we need to do is add up the line integrals over these curves to get the full line integral.\n\n$\\int_{C} 16y^{5} , ds = \\left( \\frac{1}{9} \\left(17^{\\frac{3}{2}} - 1\\right) \\right) + (-168) + \\left( -\\frac{256\\sqrt{5}}{3} \\right) = -351.1341$\n\nNote that we put parenthesis around the result of each individual line integral simply to illustrate where it came from and they aren't needed in general of course.",
+            "ImagePath": "Math_Free_Response/20"
+        },
+        {
+            "Question": " We have a piece of cardboard that is 50 cm by 20 cm and we are going to cut out the corners and fold up the sides to form a box. Determine the height of the box that will give a maximum volume.",
+            "Answer (final answer highlighted)": "\\answer{4.4018}  As with the problem like this in the notes the constraint is really the size of the box and that has been taken into account in the figure so all we need to do is set up the volume equation that we want to maximize.\n\n$$ V(h) = h(50 - 2h)(20 - 2h) = 4h^3 - 140h^2 + 1000h $$\n\nFinding the critical point(s) for this shouldn't be too difficult at this point, so here is that work,\n\n$$ V'(h) = 12h^2 - 280h + 1000 $$\n$$h = \\frac{35 \\pm 5\\sqrt{19}}{3} = 4.4018, \\ 18.9315 $$\n\nFrom the figure above, we can see that the limits on $h$ must be $ h = 0$ and $h = 1$ (the largest$ h$ could be is $ \\frac{1}{2}$ the smaller side). Note that neither of these really make physical sense but they do provide limits on $ h$.\n\nSo, we must have $0 \\leq h \\leq 10$ and this eliminates the second critical point, and so the only critical point we need to worry about is $ h = 4.4018$.\n\nBecause we have limits on \\( h \\) we can quickly check to see if we have a maximum by plugging in the volume function.\n$$ V(0) = 0 $$\n$$ V(4.4018) = 2030.34 $$\n$$V(10) = 0 $$\n\nSo, we can see then that the height of the box will have to be $ h = 4.4018 $ in order to get a maximum volume.\n",
+            "ImagePath": "Math_Free_Response/21"
+        },
+        {
+            "Question": "We want to construct a window whose middle is a rectangle and the top and bottom of the window are semi-circles. If we have 50 meters of framing material what are the dimensions of the window that will let in the most light?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{ 7.957} Next, we need to set up the constraint and equation that we are being asked to optimize. We are told that we have 50 meters of framing material (i.e. the perimeter of the window) and so that will be the constraint for this problem.\n$$ 50 = 2h + 2 (\\pi r) = 2h + 2\\pi r $$\n\nWe are being asked to maximize the amount of light being let in, and that is simply the enclosed area or,\n$$ A = h (2r) + 2 \\left( \\frac{1}{2} \\pi r^2 \\right) = 2hr + \\pi r^2 $$\n\nNow, let's solve the constraint for \\( h \\).\n$$ h = 25 - \\pi r $$\n\nPlugging this into the area function gives,\n$$ A(r) = 2 (25 - \\pi r) r + \\pi r^2 = 50r - \\pi r^2 $$\n\nFinding the critical point(s) for this shouldn't be too difficult at this point. Here is the derivative.\n$$ A'(r) = 50 - 2\\pi r $$\n$$ A''(r) = -2\\pi $$\n\nNow, let's finish the problem by getting the radius of the semicircles.\n$$ h = 25 - \\pi \\left( \\frac{25}{\\pi} \\right) = 0 $$\n\nOkay, what this means is that, in fact, the most light will come from not even having a rectangle between the semicircles and just having a circular window of radius $$ r = \\frac{25}{\\pi} $$.\n",
+            "ImagePath": "Math_Free_Response/22"
+        },
+        {
+            "Question": "Let $ R $ be the region in the first quadrant bounded by the graphs of $ f(x) = 5x - x^2 $ and $ g(x) = 2^x - 1 $ as shown in the figure above. Find the area of region $ R $. \n (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{6.481} The points of intersection of $f(x)$ and $g(x)$ are $(0, 0)$ and $(2.8354, 6.137)$. Let $a = 2.8354$. The upper boundary of $R$ is $f(x)$ and the lower boundary is $g(x)$, so the typical rectangle has a height given as $h = f(x) - g(x)$. Thus, the area of the region is\n$$ A = \\int_{0}^{a} f(x) - g(x) \\, dx $$\n$$ = \\int_{0}^{a} (5x - x^2) - (2^x - 1) \\, dx $$\n$$ = 6.481 $$\n",
+            "ImagePath": "Math_Free_Response/23"
+        },
+        {
+            "Question": "The figure above represents the function f\u2019 a continuous function, the derivative of f over the interval [-4, 6] and satisfies f(0) = 4. The graph of f\u2019 consists of three line segments and a semi-circle. Find the value of f(-4).  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{-2.28} $ f(4) = 4 + \\int_{0}^{4} f'(x) dx = 4 - 2\\pi $",
+            "ImagePath": "Math_Free_Response/24"
+        },
+        {
+            "Question": "The figure above represents the function f\u2019 a continuous function, the derivative of f over the interval [-4, 6] and satisfies f(0) = 4. The graph of f\u2019 consists of three line segments and a semi-circle. Evaluate $ \\int_{2}^{3} f''(2x)dx $  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{1} $ \\int_{2}^{3} f''(2x)dx $ = 0.5*f'(6) - 0.5 * f'(4) = 1",
+            "ImagePath": "Math_Free_Response/24"
+        },
+        {
+            "Question": "The shaded region, R, is bounded by the graph of $ y = x^2 $ and the line $ y = 4 $, as shown in the figure above. Find the area of R.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{10.667} \n$\\text{Area} = \\int_{-2}^{2} (4 - x^2) dx$\n$= 2 \\int_{0}^{2} (4 - x^2) dx$\n$= 2 \\left[ 4x - \\frac{x^3}{3} \\right]_{0}^{2}$\n$= \\frac{32}{3} = 10.666 \\text{ or } 10.667$",
+            "ImagePath": "Math_Free_Response/25"
+        },
+        {
+            "Question": "The shaded region, R, is bounded by the graph of $ y = x^2 $ and the line $ y = 4 $, as shown in the figure above. Find the volume of the solid generated by revolving R about the x-axis.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{160.85} \n$\\text{Volume} = \\pi \\int_{-2}^{2} (4 - (x^2))^2 dx$\n$= 2\\pi \\int_{0}^{2} (16 - x^4) dx$\n$= 2\\pi \\left[ 16x - \\frac{x^5}{5} \\right]_{0}^{2}$\n$= \\frac{256\\pi}{5} = 160.849 \\text{ or } 160.850$",
+            "ImagePath": "Math_Free_Response/25"
+        },
+        {
+            "Question": "The graph of function h is shown below. How many zeros does the first derivative h' of h have?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{5} Whenever the graph of h has a local maximum or local minimum h '(x) is equal to 0. The given graph has 3 local minima and 2 local maxima and therefore h ' has 5 zeros.",
+            "ImagePath": "Math_Free_Response/26"
+        },
+        {
+            "Question": "The graph of a polynomial f is shown below. If f' is the first derivative of f, then the remainder of the division of f'(x) by x - b is more likely to be equal to?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{0} The graph of f has a local maximum at b and therefore f'(b) = 0. Since f is a polynomial then f ' is also a polynomial function such that f '(b) = 0 and according to the remainder theorem the division of f '(x) by x - b is equal to 0",
+            "ImagePath": "Math_Free_Response/27"
+        },
+        {
+            "Question": "The function f shown in the graph above has horizontal tangents at (\u20132,1) and (1,\u20132) and vertical tangents at (\u20131,0) and (3,0). For how many values of x in the interval (\u20135,5) is the function not differentiable?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{4} The function is not differentiable at the points where the tangent becomes vertical, x =-1 and x = 3, at the jump discontinuity, x = 3, and at the cusp, approximately x =-2 7. .",
+            "ImagePath": "Math_Free_Response/28"
+        },
+        {
+            "Question": "The graph of a piecewise linear function f(x) for $-2 \\leq x \\leq 3 $ is shown above. What is the value of  $\\int_{-2}^{3} f(x)dx?$  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{6.5}. $\\int_{-2}^{3} f(x)dx$\r\ncan be determined geometrically by calculating the area under the graph. The key is to determine the \\( x \\)-intercept between -2 and -1. The line segment connects (-2, -1) to (-1,2) and so has the equation \\( y - 2 = 3(x + 1) \\). Substituting 0 for \\( y \\) will give an \\( x \\)-intercept of \\( x = -\\frac{5}{3} \\). \r\n$\\int_{-2}^{3} f(x)dx = \\frac{1}{2} \\left( \\frac{1}{3} + 2 \\right) + \\frac{1}{2} \\left( \\frac{14}{3} + \\frac{6}{3} \\right) - \\frac{1}{6} = \\frac{20}{6} + \\frac{39}{6} - \\frac{13}{6} = \\frac{13}{2}.$",
+            "ImagePath": "Math_Free_Response/29"
+        },
+        {
+            "Question": "Let R be the region bounded by the graphs of $ y = \\cos\\left(\\frac{\\pi x}{2}\\right) $ and $ y = x^2 - 1 $, as shown in the figure above. Find the area of R.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{2.607} $A = \\int (\\cos(\\frac{\\pi x}{2}) - (x^2 - 1))dx = \\int \\cos(\\frac{\\pi x}{2})dx - \\int (x^2 - 1)dx$\n$= \\frac{2}{\\pi} \\sin(\\frac{\\pi x}{2})\\bigg|_{-1}^{1} - \\left(\\frac{x^3}{3} - x\\right)\\bigg|_{-1}^{1}$\n$= \\frac{2}{\\pi}(1) - \\frac{2}{\\pi}(-1) - \\left(\\frac{1}{3} - 1\\right) + \\left(-\\frac{1}{3} + 1\\right) = \\frac{4}{\\pi} + \\frac{4}{3} > 2.607.$",
+            "ImagePath": "Math_Free_Response/30"
+        },
+        {
+            "Question": "Let R be the region bounded by the graphs of $ y = \\cos\\left(\\frac{\\pi x}{2}\\right) $ and $ y = x^2 - 1 $, as shown in the figure above. The line y k = splits the region R into two equal parts. Find the value of k.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{-0.015}  $\\int \\cos(\\frac{\\pi x}{2})dx = \\frac{\\pi}{4} \\text{ and } \\int (x^2 - 1)dx = \\frac{4}{3}.$\nSince $\\frac{\\pi}{4} < \\frac{4}{3}$, you can expect that $k < 0$. Therefore, the area of the region below $y = k$ is$\\int (k - x + 1)dx = (kx - \\frac{x^3}{3} + x)\\bigg|_{-1}^{1} = \\left(k - 1 + 1\\right) - \\left(-k - \\frac{1}{3} + 1\\right) = 2k + \\frac{4}{3}.$ Then $2k + \\frac{4}{3} = (2.607)$ so $2k + \\frac{4}{3} = 1.3035$ and $k = -0.015$.",
+            "ImagePath": "Math_Free_Response/30"
+        },
+        {
+            "Question": "Let R be the region bounded by the graphs of $ y = \\cos\\left(\\frac{\\pi x}{2}\\right) $ and $ y = x^2 - 1 $, as shown in the figure above. The region R is the base of a solid. For this solid, each cross section perpendicular to the x-axis is a semicircle. Find the volume of this solid.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{1.622} The volume of the solid is\r\n$V = \\int \\pi \\left(\\cos(\\frac{\\pi x}{2}) - x^2 + 1\\right)^2 dx$\r\n$= \\frac{\\pi}{8} \\int \\left(\\cos(\\frac{\\pi x}{2}) - x^2 + 1\\right)^2 dx = \\frac{\\pi}{8}(4.131) = 1.622.$",
+            "ImagePath": "Math_Free_Response/30"
+        },
+        {
+            "Question": "Following is a cumulative probability graph for the number of births per day in a city hospital. Assuming that a birthing room can be used by only one woman per day, how many rooms must the hospital have available to be able to meet the demand at least 90 percent of the days?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{20} A horizontal line drawn at the 0.9 probability level corresponds to roughly 20 rooms.",
+            "ImagePath": "Math_Free_Response/31"
+        },
+        {
+            "Question": "The stemplot below shows the number of hot dogs eaten by contestants in a recent hot dog eating contest. What is the median?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{46} The median is equal to the middle value in the data set. Here, we have an even number of values - 45 and 47 - in the middle of the data set. Their average is (45 + 47)/2 or 46.",
+            "ImagePath": "Math_Free_Response/32"
+        }
+    ],
+    "Physics_Free_Response": [
+        {
+            "Question": "refer to the following information.\n\nA student conducts a lab and obtains the following velocity versus time graph: Estimate a value for the displacement of the object during the first 7 s of the trip.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\anser{0.39} To estimate the displacement of the object during the first 7 seconds of the trip, find the value of the area under the graph, which may be approximated by a rectangle and a triangle: $\\Delta x_{0- 7s} = \\Delta x_{0 - 2.5s} + \\Delta x_{2.5 -4.5s} + \\Delta x_{4.5 - 6.5s} + \\Delta x_{6.5 -7s}$\n\n$\\Delta x_{0-7s} = 0 + \\left( 0.13 \\frac{m}{s} \\cdot 2.0 s \\right) + \\left[ \\frac{0.13 \\frac{m}{s} + 0}{2} \\cdot 2.0 s \\right] + 0 = 0.26 m + 0.13 m = 0.39 m$\n",
+            "ImagePath": "Physics_Free_Response/1"
+        },
+        {
+            "Question": "refer to the following information.\n\nThe acceleration versus time of a bicycle rider is shown here: Assuming that the bicycle starts from the origin at an initial velocity of +4 m/s, complete the following questions: Determine the total distance traveled during the 5 s of motion.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{32} During the first half of the trip, her distance traveled was:\n\n\n$x = x_0 = v_{x_0}t + 0.5a_xt^2 = 4(2) + 0.5(2)(2^2) = 12m$\nAt the beginning of the second part of the trip, the velocity was +8 m/s, and the distance is calculated as:\n\n\n$x = x_0 = v_{x_0}t + 0.5a_xt^2 = 8(3) + 0.5(-1)(3^2) = 24-4.5=19.5m$\nThe total distance is 12 m + 19.5 m = 31.5m, or approximately 32 m.\n\nAn alternate method of calculating distance is to determine the magnitude of the area bounded by the velocity-time graph above.",
+            "ImagePath": "Physics_Free_Response/2"
+        },
+        {
+            "Question": "refer to the following information.\n\nA physics student is analyzing the motion of a cart using video analysis. A low-friction lab cart is initially rolling on a long track, while a camera is taking pictures of the cart with a frame rate of 30 frames per second. The following dots show the location of the front of the cart in each picture during the entire time the cart travels 2 m on the track. Show calculation(s) to estimate the velocity of the cart at the end of the second track.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{8} The initial velocity at the top of the inclined portion was calculated earlier to be 4 m/s. To determine the time, count 10 intervals of time with one-thirtieth of a second per interval to get a time of one-third of a second on track 2. Assuming uniform acceleration we may obtain the following graph: https://img.apstudy.net/ap/physics-1/a500/Answer_065.jpg. The area bounded by a velocity graph versus time graph is displacement, which is 2 meters for this portion of the trip. Using the trapezoidal area formula, the final speed is calculated as follows: $\\text{Trapezoidal Area} = \\frac{\\text{Base}_1 + \\text{Base}_2}{2} \\times \\text{Height}$\n\n$\\text{Displacement} = \\frac{(v_i + v_f)}{2} \\times \\text{time}$\n\n$2 m = \\frac{\\left( \\frac{4 \\frac{m}{s} + v_f}{2} \\right) \\left( \\frac{1}{3} s \\right)}$\n\n$v_f = 8 m/s$",
+            "ImagePath": "Physics_Free_Response/3"
+        },
+        {
+            "Question": "refer to the following information. An object of mass m is moving according to the graph above. Three students are actively discussing how the total displacement of the object could be calculated from the graph above.\n\nStudent #1: First, find the average velocity for the entire trip by finding the sum of the initial and final velocities and dividing by two. Then, to calculate the displacement, multiply that average velocity by the total time for the entire trip.\n\nStudent #2: First, I would calculate acceleration using and then calculate displacement using $a = \\frac{\\Delta v}{\\Delta t} = \\frac{v_2 - v_1}{t_2 - 0}$ and then calculate displacement using $\\Delta x = v_1 t + \\frac{1}{2} a t^2$\n\nStudent #3: I would first find the displacement for the first part of the trip by taking $v_1 * t_1$ . Then, I would find the displacement for the second part of the trip by $\\left( \\frac{v_1 + v_2}{2} \\right) (t_2 - t_1)$ . Then I would add the two displacements together. Discuss which of the students are correct, if any. Only answer the number of that student.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{3}: Student 3's explanation is correct. There are two different models of motion for this trip that must be solved separately. The first portion is constant velocity, in which displacement is the product of velocity and elapsed time. The second portion is uniform acceleration in which displacement may be found by taking the product of average velocity and elapsed time (the kinematic equation for uniform acceleration may also be used for just the second portion). This two-part approach is similar to finding the area bounded by the graph. Student #1's approach fails because they attempt to find a simple average for the entire trip's velocity, which does not capture the fact that the velocity was higher for the interval of time from 0 to t1. Similarly, Student #2's explanation fails because they are using a kinematic equation that assumes uniform acceleration throughout the trip, which is simply not the case.",
+            "ImagePath": "Physics_Free_Response/4"
+        },
+        {
+            "Question": "An experiment with a 550-g dynamic cart produces the following position versus time graph. Use the duplicate graph below, along with calculations, to estimate the velocities at the clock readings of 5.0 s.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{-0.2} The velocity at the 5-second clock reading may be found using the slope of a line tangent to the curve, as shown in the calculation on the graph below. This is also the value for the constant velocity through the first 5 seconds of the trip. Finally, the velocity (slope) goes to zero over the last 5 seconds, indicating that the object stops. https://img.apstudy.net/ap/physics-1/a500/Answer_076.jpg",
+            "ImagePath": "Physics_Free_Response/5"
+        },
+        {
+            "Question": "refer to the following information.\n\nOn October 14, 2012, Felix Baumgartner jumped from a helium balloon that had risen to the stratosphere, 39 km above the surface of planet Earth. The data table below displays a 28-second portion of the speed data from Felix Baumgartner's infamous jump.Calculate the magnitude of Felix's acceleration at clock readings of 22.0 s.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{8.9} The magnitude of the acceleration may be found from the time rate of change in speed. At the 22.0-second clock reading, calculate how much the speed changes from 21.5 s to 22.5 s as follows: $a = \\frac{\\Delta v}{\\Delta t} = \\frac{202.5 \\frac{m}{s} - 193.6 \\frac{m}{s}}{22.5 s - 21.5 s} = 8.9 \\frac{m}{s^2}$",
+            "ImagePath": "Physics_Free_Response/6"
+        },
+        {
+            "Question": "refer to the following information.\n\n\n\nTwo air track sliders have force probes linked together on a horizontal air track as shown in the diagram above. Slider A has a mass of 1,000 grams and slider B has a mass of 500 kg. Someone grabs slider A and interacts with it for 1 second of time. Force probe B is calibrated such that a pushing force to the right is positive and a pulling force to the left is negative. Force probe B measures the force during that 1 second of time as shown in the graph. Estimate the value of the displacement of the sliders during the 1 second of elapsed time, clearly showing your calculations.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{-0.6} To find the displacement of the system, integrate the velocity vs. clock reading graph for each time interval by finding the area bounded: $0 - 0.25 s \\rightarrow \\Delta x = 0$\r\n\r\n$0.25 s - 0.5 s \\rightarrow \\Delta x = \\text{triangle area} = \\frac{1}{2}(0.25 s)(-1 m/s) = -0.125 m$\r\n\r\n$0.5 s - 0.8 s \\rightarrow \\Delta x = \\text{triangle area} = (0.3 s)(-1 m/s) = -0.3 m$\r\n\r\n$0.8 s - 1.0 s \\rightarrow \\Delta x = \\text{trapezoid area} = \\frac{(-1.0 m/s) + (-0.4 m/s)}{2} (0.2 s) = -0.14 m$\r\n\r\n$\\Delta x_{\\text{total}} = -0.125 m - 0.3 m - 0.14 m = 0.565 m \\approx -0.6 m$\r\n",
+            "ImagePath": "Physics_Free_Response/7"
+        },
+        {
+            "Question": "refer to the following information.\n\n\n\nTwo air track sliders have force probes linked together on a horizontal air track as shown in the diagram above. Slider A has a mass of 1,000 grams and slider B has a mass of 500 kg. Someone grabs slider A and interacts with it for 1 second of time. Force probe B is calibrated such that a pushing force to the right is positive and a pulling force to the left is negative. Force probe B measures the force during that 1 second of time as shown in the graph. What value of a constant force in the time interval between 1.0 and 1.5 s would be measured by slider B's force probe in order to return the slider system to its starting position?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{3.06} To return the shuttles to their starting position, a positive displacement of 0.565 meters is needed for the last second of time, which is to the left according to the reference frame of the motion detector. That means slider B will need a net force to the left calculated from the following steps:\n\n$v_{\\text{ave}} = \\frac{\\Delta X}{\\Delta t} = \\frac{0.565 m}{0.5 \\text{sec}} = 1.13 m/s$\n\nFor a uniform acceleration, the average velocity is the midpoint:\n$ v_{\\text{ave}} = \\frac{(v_i + v_f)}{2} \\rightarrow 1.13 = \\frac{(-0.4 + v_f)}{2} \\rightarrow v_f = 2.66 \\, m/s$\n\n$a = \\frac{\\Delta v}{\\Delta t} = \\frac{(2.66 - (-0.4) \\, m/s)}{0.5 \\, s} = 6.12 \\, m/s^2$\n\n$F_{\\text{net}} = ma = (0.5 \\, \\text{kg})(6.12 \\, m/s^2) = 3.06 \\, N$\n\n$F_{\\text{net}} \\approx 3 \\, N \\text{ to the left}$",
+            "ImagePath": "Physics_Free_Response/7"
+        },
+        {
+            "Question": "refer to the following information.\n\n\n\nA 10-kg box starts from rest and slides down an inclined plane for 2.0 s as shown in the diagram above. The coefficient of friction between the box and the inclined plane is 0.1. Calculate the force of friction on the box.",
+            "Answer (final answer highlighted)": "\\answer{8.5} Calculate the force of friction by applying Newton's second law: $F_{\\text{net}_y} = 0$\n\n$F_N - mg\\cos\\theta = 0$\n\n$F_N = mg\\cos\\theta$\n\n$F_f = \\mu F_N$\n\n$F_f = \\mu mg\\cos\\theta$\n\n$F_f = (0.1)(10 \\, \\text{kg})(9.8 \\, m/s^2)\\cos 30^\\circ$\n\n$F_f = (0.1)(10 \\, \\text{kg})(9.8 \\, m/s^2)(0.87)$\n\n$F_f = 8.5 N$\n",
+            "ImagePath": "Physics_Free_Response/8"
+        },
+        {
+            "Question": "refer to the following information.\n\n\n\nA 10-kg box starts from rest and slides down an inclined plane for 2.0 s as shown in the diagram above. The coefficient of friction between the box and the inclined plane is 0.1. Calculate the acceleration of the box.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{4.1} The box's acceleration can be calculated by applying Newton's second law: $ F_{\\text{net}_y} = 0 $\n$ F_N - mg\\cos\\theta = 0 $\n$ F_N = mg\\cos\\theta $\n$ F_{\\text{net}_x} = ma $\n$ mg\\sin\\theta - F_f = ma $\n$ mg\\sin\\theta - \\mu F_N = ma $\n$ mg\\sin\\theta - \\mu(mg\\cos\\theta) = ma $\n$ g\\sin\\theta - \\mu(g\\cos\\theta) = a $ $ a = g(\\sin\\theta - \\mu\\cos\\theta) $\r\n$ a = (10 m/s^2)[\\sin 30^\\circ - (0.1)\\cos 30^\\circ] $\r\n$ a = (10 m/s^2)[(0.5) - (0.1)(0.87)] $\r\n$ a = 4.1 m/s^2 $\r\n\n",
+            "ImagePath": "Physics_Free_Response/8"
+        },
+        {
+            "Question": "refer to the following information.\n\n\n\nA 10-kg box starts from rest and slides down an inclined plane for 2.0 s as shown in the diagram above. The coefficient of friction between the box and the inclined plane is 0.1. Calculate the final velocity of the box and the distance that the box moves down the plane in the given time interval.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{8.1} The box started from rest and accelerated down the plane for 2 s. First, calculate the final velocity:\r\n\r\n\r\n$ v_f = v_0 + at $\r\n$ v_f = 0 + 4.05 m/s^2 \\cdot 2 s $\r\n$ v_f = 8.1 m/s $\r\n\r\n\r\nNext, calculate the distance that the box moved:\r\n\r\n\r\n$ v_f^2 = v_0^2 + 2a\\Delta x $\r\n$ (8.1 m/s)^2 = (0 m/s)^2 + 2(4.05 m/s^2)\\Delta x $\r\n$ \\Delta x = 8.1 m $\r\n\r\nor\r\n\r\n$ \\Delta x = v_0t + \\frac{1}{2} at^2 $\r\n$ \\Delta x = 0 + \\frac{1}{2}(4.05 m/s^2)(2 s)^2 $\r\n$ \\Delta x = 8.1 m $\r\n",
+            "ImagePath": "Physics_Free_Response/8"
+        },
+        {
+            "Question": "refer to the following information.\n\n\n\nThe person in the diagram above pulls on the right end of the chain with a 30 N force. Assume that surface has negligible friction. Calculate the value of the acceleration of the box if the chain has a mass of 1.0 kg.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{5} When the chain is has a mass of 1.0 kg, acceleration of the entire system (chain and box) is calculated using Newton's second law: $ a = \\frac{F_{\\text{net}}}{m} $\r\n$ a = \\frac{30 N}{5.0 kg + 1.0 kg} $\r\n$ a = 5.0 \\frac{m}{s^2} $\r\n\n",
+            "ImagePath": "Physics_Free_Response/9"
+        },
+        {
+            "Question": "refer to the following information.\n\n\n\nThe person in the diagram above pulls on the right end of the chain with a 30 N force. Assume that surface has negligible friction. Determine the force that the chain pulls on the box in the two cases above, clearly explaining your reasoning with words and calculation.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{25} When the chain is massless, the tension will stay the same throughout the chain with the value of 30 Newtons. When the chain's 1.0-kg mass is considered, the 5.0-kg box may be analyzed to find the tension with which the chain pulls on the box as follows: $ F_{\\text{net}} = ma $\r\n$ F_t = (5.0 \\, kg)(5.0 \\, \\frac{m}{s^2}) = 25 \\, N $\r\n",
+            "ImagePath": "Physics_Free_Response/9"
+        },
+        {
+            "Question": "refer to the following information.\n\n\n\nThe person in the diagram above pulls on the right end of the chain with a 30 N force. Assume that surface has negligible friction.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{27.5} Since the chain pulls on the box with 25 N, then the box pulls back on the left end of the chain with 25 N, according to Newton's third law. The following free-body diagram may be used for the left half of the chain (which has half the mass of the entire chain). $ F_{\\text{net}} = ma $\n$ T - 25 N = 0.5 kg \\left( 5 \\frac{m}{s^2} \\right) $\n$ T = 2.5 N + 25 N = 27.5 N$\n",
+            "ImagePath": "Physics_Free_Response/9"
+        },
+        {
+            "Question": "refer to the following information.\n\n\n\nIn tests of a 120-g, two-stage model rocket engine, the force produced by the engine was graphed during a 15-second burn as shown above. This engine is installed in an 80-g model rocket and the rocket is fired vertically from rest. Assuming that aerodynamic forces of drag and lift on the rocket are negligible, complete the following questions. Determine the maximum height of the rocket's trajectory.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{1000} Besides using kinematic equations, displacement may be found from the area bounded by the velocity versus time graph. Breaking the graph above into a triangle, trapezoid, and another triangle, the maximum height is calculated as follows: $ y_{max} = \\frac{1}{2}(4 s) \\left( \\frac{100 m}{s} + \\frac{110 m}{s} \\right) + \\frac{1}{2}(2 s + 11 s) \\left( \\frac{110 m}{s} \\right) $\r\n$ y_{max} = 1,015 m \\approx 1,000 m $\r\n",
+            "ImagePath": "Physics_Free_Response/10"
+        },
+        {
+            "Question": "refer to the following information.\n\n\n\nIn tests of a 120-g, two-stage model rocket engine, the force produced by the engine was graphed during a 15-second burn as shown above. This engine is installed in an 80-g model rocket and the rocket is fired vertically from rest. Assuming that aerodynamic forces of drag and lift on the rocket are negligible, complete the following questions. Determine the elapsed time between takeoff and when it arrives back to its launch pad. (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{31} The time of the journey to the peak is 17 seconds. The free-fall time from the peak to the ground may be calculated as follows:\n\n$ x = x_0 + v_{x_0} t + \\frac{1}{2} a_{x} t^2 $\r\n$ x = \\frac{1}{2} g t^2 $\r\n$ t = \\sqrt{\\frac{2x}{g}} = \\sqrt{\\frac{2(1,015 m)}{10 m/s^2}} \\approx 14 s $\r\n\n\nTherefore, the total time for the trip is 17 s + 14 s = 31 seconds.",
+            "ImagePath": "Physics_Free_Response/10"
+        },
+        {
+            "Question": "refer to the following information.\n\n\n\nThe diagram above shows a ball of mass m hanging from a rope in a truck on a planet with a gravitational acceleration of g. Determine the value of the angle $\\theta$ when the acceleration of the truck has a magnitude $\\frac{g}{\\sqrt 3}$.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{30} Since the ball is not accelerating vertically, the cosine component of tension must balance the weight of the ball:\n\n$ T \\cos\\theta = mg \\rightarrow T = \\frac{mg}{\\cos\\theta} $\n\n\nHorizontally, the sine component of tension provides the net force to accelerate the ball at the given rate $\\frac{g}{\\sqrt 3}$. $ a = \\frac{F_{\\text{net}}}{m} = \\frac{T \\sin\\theta}{m} $\n$ a = \\left( \\frac{mg}{\\cos\\theta} \\right) \\frac{\\sin\\theta}{m} $\n$ a = g \\frac{\\sin\\theta}{\\cos\\theta} $\n$ a = \\frac{g}{\\sqrt{3}} $\n$ \\tan\\theta = \\frac{1}{\\sqrt{3}} \\rightarrow \\theta = 30^\\circ $",
+            "ImagePath": "Physics_Free_Response/11"
+        },
+        {
+            "Question": "refer to the following information.\n\n\n\nThree students are discussing a physics problem. They make three different claims about the trunk moving to the right at a constant velocity.\n\nStudent #1: \"The value of tension force is greater than the value of the kinetic friction force because the trunk is moving to the right, which requires a net force.\"\n\nStudent #2: \"The tension force has the same value as the kinetic friction force because there can't be a net force on a trunk that's in a state of constant velocity.\"\n\nStudent #3: \"It's obvious that the tension force and the kinetic friction comprise a Newton's third law pair; thus they are equal in magnitude and opposite in direction.\" Whose argument do you support? Only answer the number of the student.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{2} Student #2's explanation is correct. \n\nNewton's first law states that an object maintains constant velocity as long as there is zero net force on it. Thus, on the horizontal axis, the tension force must balance the kinetic friction; otherwise, the object would accelerate. Newton's second law also supports this claim because with zero acceleration (constant velocity) there must be no net force.",
+            "ImagePath": "Physics_Free_Response/12"
+        },
+        {
+            "Question": "refer to the following information.\n\nA box of mass m is placed on an incline plane of length \u2113 on a planet with a gravitational acceleration of g. The box is initially at rest; the incline angle is slowly increased, and the box begins to break free when the angle reaches 30 degrees. At that angle, the box begins to accelerate at a rate of g/10. Estimate the value of the static friction coefficient.",
+            "Answer (final answer highlighted)": "\\answer{0.58} The coefficient of static friction is found by determining the maximum value of the static friction, which occurs immediately before it breaks free\u2014so in the estimate for the calculation of the coefficient, 30\u00b0 will be used.\n\n\n\nAt that moment immediately before it breaks free, there is no acceleration, so there is zero net force on the object. The coefficient is calculated as follows. $ N = mg \\cos\\theta $\r\n$ F_s = mg \\sin\\theta $\r\n$ \\mu_s = \\frac{F_s}{N} = \\frac{mg \\cos\\theta}{mg \\sin\\theta} = \\frac{\\cos\\theta}{\\sin\\theta} = \\tan\\theta $\r\n$ \\mu_s = \\tan 30^\\circ = 0.58 $\r\n",
+            "ImagePath": "Physics_Free_Response/13"
+        },
+        {
+            "Question": "refer to the following information.\n\nA box of mass m is placed on an incline plane of length \u2113 on a planet with a gravitational acceleration of g. The box is initially at rest; the incline angle is slowly increased, and the box begins to break free when the angle reaches 30 degrees. At that angle, the box begins to accelerate at a rate of g/10. Determine the value of the kinetic friction coefficient.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{0.46} Newton's second law may be used to find the kinetic friction coefficient as follows: $ N = mg \\cos\\theta $\r\n$ a = \\frac{F_{\\text{net}}}{m} $\r\n$ a = \\frac{mg \\sin\\theta - \\mu_k N}{m} $\r\n$ a = \\frac{mg \\sin\\theta - \\mu_k (mg \\cos\\theta)}{m} $\r\n$ a = \\frac{mg(\\sin\\theta - \\mu_k \\cos\\theta)}{m} $\r\n$ a = g(\\sin\\theta - \\mu_k \\cos\\theta) $\r\n$ \\mu_k = \\frac{\\sin\\theta - a/g}{\\cos\\theta} $\r\n$ \\mu_k = \\frac{\\sin 30^\\circ - 1/10}{\\cos 30^\\circ} = 0.46 $\r\n",
+            "ImagePath": "Physics_Free_Response/13"
+        },
+        {
+            "Question": "refer to the following information.\n\n\n\nA race car makes a turn on a banked track as shown above. Calculate the car's maximum speed, assuming the track is frictionless. Use m = 1,000 kg, R = 300 m, and \u03b8 = 30\u00b0.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{42} Calculate the car's maximum velocity by applying Newton's second law to the situation. Because of the no friction statement, the car's centripetal force is provided by the horizontal component of normal force from the road ($F_c = F_N sin\u03b8$) and the horizontal component of the friction force. The car does not accelerate along the y-axis, so the vertical component of the normal force must balance the weight of the car ($mg = F_N cos\u03b8$). By dividing these two equations, we get an equation that we can solve for velocity: $ F_c = F_N \\sin\\theta = \\frac{mv^2}{r} $\r\n$ mg = F_N \\cos\\theta $\r\n$ \\frac{F_N \\sin\\theta}{F_N \\cos\\theta} = \\frac{mv^2}{r} \\div mg $\r\n$ \\tan\\theta = \\frac{v^2}{rg} $\r\n$ v^2 = rg \\tan\\theta $\r\n$ v = \\sqrt{rg \\tan\\theta} $\r\n$ v = \\sqrt{(300 m)(10 m/s^2) \\tan 30^\\circ} $\r\n$ v = 42 m/s $\r\n",
+            "ImagePath": "Physics_Free_Response/14"
+        },
+        {
+            "Question": "refer to the following information.\n\nThe graph below shows the external force applied to a 15-kg object throughout a displacement of 8.0 m. How much work was done on the object throughout the 8.0-m displacement?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{72} The amount of work is the area bounded by the force-displacement graph. The work for the first 4 m of displacement is the area of the 12 N by 4 m rectangle, which is 48 J. The work for the next 4 m of displacement is the area of the 12 N by 4 m triangle, which is \u00bd (4) (12) = 24 J. The total amount of work done on the object is 48 J + 24 J = 72 J.",
+            "ImagePath": "Physics_Free_Response/15"
+        },
+        {
+            "Question": "refer to the following information.\n\nThe graph below shows the external force applied to a 15-kg object throughout a displacement of 8.0 m. If the object was initially moving with a velocity of +4.0 m/s (before the force was applied), calculate the object's kinetic energy after the work was done on it.\n(Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{192} The work-energy theorem is used to find the final kinetic energy of the object: $ W = \\Delta K $\n$ W = K_f - \\frac{1}{2} mv_i^2 $\n$ K_f = W + \\frac{1}{2} mv_i^2 $ $ K_f = 72 J + \\frac{1}{2}(15 kg)(4.0 \\frac{m}{s})^2 $\r\n$ K_f = 72 J + 120 J \\rightarrow K_f = 192 J $\r\n\n",
+            "ImagePath": "Physics_Free_Response/15"
+        },
+        {
+            "Question": "refer to the following information.\n\nThe graph below shows the external force applied to a 15-kg object throughout a displacement of 8.0 m. Calculate the speed of the object after the work was done on it.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{5.1} The final velocity is found as follows: $ K_f = \\frac{1}{2}mv_f^2 $\r\n$ v_f = \\sqrt{\\frac{2K_f}{m}} $\r\n$ v_f = \\sqrt{\\frac{2(192 J)}{15 kg}} \\rightarrow v_f = 5.1 m/s $\r\n",
+            "ImagePath": "Physics_Free_Response/15"
+        },
+        {
+            "Question": "refer to the following information.\n\nThe graph below shows the external force applied to a 15-kg object throughout a displacement of 8.0 m. Next, the object hits a compressional spring with a spring constant of 650 N/m. Calculate the maximum compression of the spring. \n (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{0.77} As the spring compresses and the object stops, all of the 192 J of kinetic energy will transfer to elastic potential energy of the spring: $ (K + U_s)_{\\text{initial}} = (K + U_s)_{\\text{final}} $\n$ (K + 0)_{\\text{initial}} = (0 + U_s)_{\\text{final}} $\n$ 192 J = \\frac{1}{2} kx^2 $\n$ x = \\sqrt{\\frac{2(192 J)}{650 \\frac{N}{m}}} \\rightarrow x = 0.77 m $\n",
+            "ImagePath": "Physics_Free_Response/15"
+        },
+        {
+            "Question": "As shown in the diagram above, A block is initially pressed against a massless spring on a frictionless surface. The block reaches a maximum height h before it slides back down the curved ramp. Two AP physics students are discussing the role that energy and systems serve in this scenario. At different points in their discussion, they make the following statements:\n\nStudent #1: The total mechanical energy in the spring-block system remains the same from the point of release all the way to when the block reaches its maximum height. That means that the initial spring potential energy transfers completely into gravitational potential energy at the top of the ramp.\n\nStudent #2: As the block goes up the ramp, I know that mechanical energy of the Earth-block system stays the same, so the kinetic energy at the bottom of the ramp is completely responsible for the change in gravitational potential energy during its trip up to the top of the ramp. Since the gravitational energy height is half its gravitational potential energy at the top, its speed at height must be half its speed at the bottom of the ramp.\n\nAnalyze Student #1's second sentence (taken alone, independent of the first sentence) and state whether it is correct or not. (Answer yes or no)",
+            "Answer (final answer highlighted)": "\\answer{Yes} Student #1's second statement, taken independently from the first statement, is CORRECT due to conservation of energy.",
+            "ImagePath": "Physics_Free_Response/16"
+        },
+        {
+            "Question": "As shown in the diagram above, two resting blocks (4.0 kg and 8.0 kg) have a massless spring (spring constant 2,400 N/m) compressed between them. Upon release from the spring, the 8.0 kg block moves to the right at 10.0 m/s on a frictionless surface.\n\nCalculate the compression distance of the spring.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{1} Conservation of energy may be used to calculate the compression distance of the spring as follows:\n$U_s = K_4 + K_8$\n$\\frac{1}{2} k x^2 = \\frac{1}{2} m_4 v_4^2 + \\frac{1}{2} m_8 v_8^2$\n$x = \\sqrt{\\frac{m_4 v_4^2 + m_8 v_8^2}{k}}$\n$x = \\sqrt{\\frac{(4.0\\, \\text{kg}) (20\\, \\text{m/s})^2 + (8.0\\, \\text{kg}) (10\\, \\text{m/s})^2}{2400\\, \\text{N/m}}}$\n$x = 1.0\\, \\text{m}$\n",
+            "ImagePath": "Physics_Free_Response/17"
+        },
+        {
+            "Question": "As shown in the diagram above, two resting blocks (4.0 kg and 8.0 kg) have a massless spring (spring constant 2,400 N/m) compressed between them. Upon release from the spring, the 8.0 kg block moves to the right at 10.0 m/s on a frictionless surface.\n\nCalculate the vertical distance the 8.0-kg block moves up the curved ramp.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{5} Conservation of mechanical energy may be used for the 8.0-kg block going up the ramp as follows:\n$K_8 = U_{g8}$\n$\\frac{1}{2} mv^2 = mg\\Delta y$\n$\\Delta y = \\frac{v^2}{2g}$\n$\\Delta y = \\frac{(10\\, \\text{m/s})^2}{2 \\cdot (10\\, \\text{m/s}^2)} = 5.0\\, \\text{m}$\n",
+            "ImagePath": "Physics_Free_Response/17"
+        },
+        {
+            "Question": "As shown in the diagram above, two resting blocks (4.0 kg and 8.0 kg) have a massless spring (spring constant 2,400 N/m) compressed between them. Upon release from the spring, the 8.0 kg block moves to the right at 10.0 m/s on a frictionless surface.\n\nBoth blocks eventually fly off a 45-m tall cliff, each reaching a specific horizontal range x as shown on the diagram. Calculate the difference between the range of the 8.0-kg block and the range of the 4.0-kg block.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{30} To calculate the range of each block, first the time of fall is found using free fall:\n$y - y_0 = v_{y0} t + \\frac{1}{2} a_{y} t^2$\n$h = 0 + \\frac{1}{2} g t^2$\n$t = \\sqrt{\\frac{2h}{g}}$\n$t = \\sqrt{\\frac{2(45\\, \\text{m})}{10\\, \\text{m/s}^2}} = 3.0\\, \\text{s}$\n\nSince there are no net forces horizontally while the boxes are falling, they will move horizontally at constant speeds. The range of each block may be calculated as follows:\n$x_4 = v_{4}t = (20\\, \\text{m/s})(3.0\\, \\text{s}) = 60\\, \\text{m}$\n$x_8 = v_{8}t = (10\\, \\text{m/s})(3.0\\, \\text{s}) = 30\\, \\text{m}$\n\nThe difference between the ranges is:\n$x_4 - x_8 = 60\\, \\text{m} - 30\\, \\text{m} = 30\\, \\text{m}$\n",
+            "ImagePath": "Physics_Free_Response/17"
+        },
+        {
+            "Question": "A 6.0-kg block starts from rest at the top of a smooth, frictionless, 2.0-m tall track. When the block reaches a spring, the surface transitions to a rough surface with a coefficient of kinetic friction of 0.50. The box links to the spring, compressing it a maximum distance of 60.0 cm before oscillating back and forth.\n\nCalculate the value of the spring constant.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{570} Conservation of energy is used as follows:\n$U_{gi} + W_{friction} = U_{sf}$\n$mg\\Delta y - \\mu_k mgx = -\\frac{1}{2} kx^2$\n$k = \\frac{2mg(\\Delta y - \\Delta k x)}{x^2}$\n$k = \\frac{2(6.0\\, \\text{kg}) \\left(10\\, \\frac{N}{kg} \\right) \\left[2.0\\, \\text{m} - (0.5)(0.60\\, \\text{m})\\right]}{(0.60\\, \\text{m})^2} = 567\\, \\frac{N}{m} \\approx 570\\, \\frac{N}{m}$\n",
+            "ImagePath": "Physics_Free_Response/18"
+        },
+        {
+            "Question": "A 6.0-kg block starts from rest at the top of a smooth, frictionless, 2.0-m tall track. When the block reaches a spring, the surface transitions to a rough surface with a coefficient of kinetic friction of 0.50. The box links to the spring, compressing it a maximum distance of 60.0 cm before oscillating back and forth.\n\nCalculate the oscillation frequency of the mass-spring system.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{1.5} The frequency of the oscillating mass is independent of the friction on the surface. The period of spring-mass oscillators is:\n$T_s = 2\\pi\\sqrt{\\frac{m}{k}}$\n\nFrequency is the inverse of period:\n$f = \\frac{1}{T_s} = \\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}}$\n$f = \\frac{1}{2\\pi}\\sqrt{\\frac{567\\, \\text{N/m}}{6.0\\, \\text{kg}}} = 1.5\\, \\text{Hz}$\n",
+            "ImagePath": "Physics_Free_Response/18"
+        },
+        {
+            "Question": "A 6.0-kg block starts from rest at the top of a smooth, frictionless, 2.0-m tall track. When the block reaches a spring, the surface transitions to a rough surface with a coefficient of kinetic friction of 0.50. The box links to the spring, compressing it a maximum distance of 60.0 cm before oscillating back and forth.\n\nEventually, the mass stops vibrating and comes to rest. Find the total distance that the spring traveled along the rough part of the surface during all of its oscillations.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{4} The mass only encounters friction for the right half of its oscillation, and this question is only concerned with the distance the mass travels on the region with friction. Consider the mechanical energy of the Earth-mass-spring system, with the initial state being at the top of the ramp and the final state after all the oscillations.\n$U_{gi} + W_{friction} = 0$\n$mg\\Delta y - \\mu_k mgd = 0$\n$d = \\frac{\\Delta y}{\\mu_k}$\n$d = \\frac{2.0\\, \\text{m}}{0.5} = 4.0\\, \\text{m}$\n",
+            "ImagePath": "Physics_Free_Response/18"
+        },
+        {
+            "Question": "A 2.0-kg box is initially moving at +3.0 m/s and is pushed along a horizontal, frictionless surface with a force that varies with time according to the following graph: \nAt the 7-second clock reading, the box collides with a wall and bounces backward at 6 m/s. Given that the box is in contact with the wall for 0.20 s, calculate the average force that the wall exerts on the box.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{-140} The velocity of the box at the 7-s clock reading is $+8 \\, \\text{m/s}$ as it strikes the wall for $0.20 \\, \\text{s}$ and bounces back at a velocity of $-6 \\, \\text{m/s}$. The momentum-impulse theorem is solved for average force as follows:\n$\\vec{F} = \\frac{\\Delta p}{\\Delta t}$\n$\\vec{F} = \\frac{2\\, \\text{kg} (-6 \\, \\frac{\\text{m}}{\\text{s}}) - 2\\, \\text{kg} (8 \\, \\frac{\\text{m}}{\\text{s}})}{0.20 \\, \\text{s}}$\n$\\vec{F} = -140 \\, \\text{N}$\n",
+            "ImagePath": "Physics_Free_Response/19"
+        },
+        {
+            "Question": "The carts with masses 2m and m are initially moving with a speed v on a low friction track as shown in the diagram. The carts are initially connected by a compressed, negligible-mass spring that is fixed to the more massive car. After the spring is released, the less massive cart moves to the right with a speed 2v. The force versus time graph models the positive force that the less massive cart experiences during the release period of 0.2 s. Using the values m = 500 g and v = 1.2 m/s, calculate the maximum spring force, Fmax.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{6} The impulse-momentum theorem states that the area bounded by the force vs. time graph is the momentum change of the system. Using the less-massive cart as the system, \\( F_{\\text{max}} \\) may be calculated as follows:\n$ \\text{Area of graph} = \\text{Momentum change} $\n$ \\frac{1}{2} \\text{base} \\times \\text{height} = m v_f - m v_i $\n$ \\frac{1}{2} \\Delta t (F_{\\text{max}}) = m(2v) - mv $\n$ \\frac{1}{2} \\Delta t (F_{\\text{max}}) = mv $\n$ F_{\\text{max}} = \\frac{2mv}{\\Delta t} $\n$ F_{\\text{max}} = \\frac{2(0.500\\, \\text{kg})(1.2\\, \\text{m/s})}{(0.2\\, \\text{s})} $\n$ F_{\\text{max}} = 6\\, \\text{N} $\n",
+            "ImagePath": "Physics_Free_Response/20"
+        },
+        {
+            "Question": "A box slides on a frictionless surface at an initial speed vo and sticks to a resting box with twice the mass. Two identical springs with spring constant k attach the second box to a wall. If $m = 2\\, \\text{kg}$, $v_0 = 6\\, \\text{m/s}$, and $k = 300\\, \\text{N/m}$, calculate the oscillation amplitude of the mass-spring system after the collision.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{0.2} The amplitude of oscillation is the maximum displacement of the spring, when the kinetic system of the combined masses transfers into elastic energy. Note that the equivalent spring constant for springs in parallel is the sum of the individual spring constants.\n\n$K_{\\text{max}} = U_{\\text{max}}$\n$\\frac{mv_0^2}{6} = \\frac{1}{2} (k + k) x_{\\text{max}}^2$\n$\\frac{mv_0^2}{6} = \\frac{1}{2} (2k) x_{\\text{max}}^2$\n$x_{\\text{max}} = \\sqrt{\\frac{mv_0^2}{6k}}$\n$x_{\\text{max}} = \\sqrt{\\frac{(2\\, \\text{kg})(6\\, \\text{m/s})^2}{6(300\\, \\text{N/m})}} = 0.2\\, \\text{m}$\n",
+            "ImagePath": "Physics_Free_Response/21"
+        },
+        {
+            "Question": "When a system is taken from state a to state b along the path acb shown in the figure below, 70 J of heat flows into the system, and the system does 30 J of work. When the system is returned from state b to state a along the curved path shown, 60 J of heat flows out of the system. Does the system perform work on its surroundings or do the surroundings perform work on the system? How much work is done?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{20}  First, calculate $\\Delta U_{acb}$. Using path $acb$, the question tells you that $Q = +70\\, \\text{J}$ and $W = -30\\, \\text{J}$ ($W$ is negative here because it is the \\textit{system} that does the work). The First Law, $\\Delta U = Q + W$, tells you that $\\Delta U_{acb} = +40\\, \\text{J}$. Because $\\Delta U_{a \\rightarrow b}$ does not depend on the path taken from $a$ to $b$, you must have $\\Delta U_{ab} = +40\\, \\text{J}$, and $\\Delta U_{ba} = -\\Delta U_{ab} = -40\\, \\text{J}$. Thus, $-40\\, \\text{J} = Q_{ba} + W_{ba}$, where $Q_{ba}$ and $W_{ba}$ are the values along the curved path from $b$ to $a$. Since $Q_{ba} = -60\\, \\text{J}$, it follows that $W_{ba} = +20\\, \\text{J}$. Therefore, the surroundings do $20\\, \\text{J}$ of work on the system.\n",
+            "ImagePath": "Physics_Free_Response/22"
+        },
+        {
+            "Question": "When a system is taken from state a to state b along the path acb shown in the figure below, 70 J of heat flows into the system, and the system does 30 J of work. If the system does 10 J of work in transforming from state a to state b along path adb, does the system absorb or does it emit heat? How much heat is transferred?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{50} Again, using the fact that $\\Delta U_{a \\rightarrow b}$ does not depend on the path taken from $a$ to $b$, you know that $\\Delta U_{adb} = +40\\, \\text{J}$, as computed above. Writing $\\Delta U_{adb} = Q_{adb} + W_{adb}$, if $W_{adb} = -10\\, \\text{J}$, it follows that $Q_{adb} = +50\\, \\text{J}$. That is, the system absorbs $50\\, \\text{J}$ of heat.\n",
+            "ImagePath": "Physics_Free_Response/22"
+        },
+        {
+            "Question": "When a system is taken from state a to state b along the path acb shown in the figure below, 70 J of heat flows into the system, and the system does 30 J of work. If $U_a = 0\\, \\text{J}$ and $U_d = 30\\, \\text{J}$, determine the heat absorbed in the processes $db$ and $ad$. \n (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{40} For the process $db$, there is no change in volume, so $W_{db} = 0$. Therefore, $\\Delta U_{db} = Q_{db} + W_{db} = Q_{db}$. Now, since $U_{ab} = +40\\, \\text{J}$, the fact that $U_a = 0\\, \\text{J}$ implies that $U_b = 40\\, \\text{J}$, so $\\Delta U_{ab} = U_b - U_a = 40\\, \\text{J} - 30\\, \\text{J} = 10\\, \\text{J}$. Thus, $Q_{db} = 10\\, \\text{J}$. Now let's consider the process $ad$. Since $W_{abd} = W_{ad} + W_{db} = W_{ad} + 0 = W_{ad}$, the fact that $W_{adb} = -10\\, \\text{J}$ [computed in part (b)] tells you that $W_{ad} = -10\\, \\text{J}$. Because $\\Delta U_{ad} = U_d - U_a = 30\\, \\text{J}$, it follows from $\\Delta U_{ad} = Q_{ad} + W_{ad}$ that $Q_{ad} = \\Delta U_{ad} - W_{ad} = 30\\, \\text{J} - (-10\\, \\text{J}) = 40\\, \\text{J}$.\n",
+            "ImagePath": "Physics_Free_Response/22"
+        },
+        {
+            "Question": "A 0.4 mol sample of an ideal diatomic gas undergoes slow changes from state a to state b to state c and back to a along the cycle shown in the P-V diagram below: Path ab is an isotherm, and it can be shown that the work done by the gas as it changes isothermally from state a to state b is given by the equation $W_{ab} = -nRT \\times \\ln \\left( \\frac{V_b}{V_a} \\right)$ What's the temperature of state c? \n (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{220} Use the Ideal Gas Law:\n$T_c = \\frac{P_c V_c}{nR} = \\frac{(0.6 \\times 10^5\\, \\text{Pa})(12 \\times 10^{-3}\\, \\text{m}^3)}{(0.4\\, \\text{mol})(8.31\\, \\text{J/mol}\\cdot\\text{K})} = 220\\, \\text{K}$\n",
+            "ImagePath": "Physics_Free_Response/23"
+        },
+        {
+            "Question": "A 0.4 mol sample of an ideal diatomic gas undergoes slow changes from state a to state b to state c and back to a along the cycle shown in the P-V diagram below: Path ab is an isotherm, and it can be shown that the work done by the gas as it changes isothermally from state a to state b is given by the equation $W_{ab} = -nRT \\times \\ln \\left( \\frac{V_b}{V_a} \\right)$. How much work, $W_{ab}$, is done by the gas during step ab?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{-4000} Using the equation given, find that\n$W_{ab} = -nRT \\cdot \\ln \\left( \\frac{V_b}{V_a} \\right) = - (0.4\\, \\text{mol}) (8.31\\, \\text{J/mol} \\cdot \\text{K}) (870\\, \\text{K}) \\cdot \\ln \\left( \\frac{48 \\times 10^{-3}\\, \\text{m}^3}{12 \\times 10^{-3}\\, \\text{m}^3} \\right) = -4,000\\, \\text{J}$\n",
+            "ImagePath": "Physics_Free_Response/23"
+        },
+        {
+            "Question": "A 0.4 mol sample of an ideal diatomic gas undergoes slow changes from state a to state b to state c and back to a along the cycle shown in the P-V diagram below: Path ab is an isotherm, and it can be shown that the work done by the gas as it changes isothermally from state a to state b is given by the equation $W_{ab} = -nRT \\times \\ln \\left( \\frac{V_b}{V_a} \\right)$. What is the total work done over cycle abca?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{-1800} The total work done over the cycle is equal to the sum of the values of the work done over each step:\n$W_{\\text{cycle}} = W_{ab} + W_{bc} + W_{ca}$\n$W_{\\text{cycle}} = W_{ab} + W_{bc}$\n$W_{\\text{cycle}} = (-4,000\\, \\text{J}) + (2,200\\, \\text{J})$\n$W_{\\text{cycle}} = -1,800\\, \\text{J}$\n",
+            "ImagePath": "Physics_Free_Response/23"
+        },
+        {
+            "Question": "Consider the following circuit, At what rate does the battery deliver energy to the circuit?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{240}  The two parallel branches, the one containing the $40\\, \\Omega$ resistor and the other a total of $120\\, \\Omega$, is equivalent to a single $30\\, \\Omega$ resistance. This $30\\, \\Omega$ resistance is in series with the three $10\\, \\Omega$ resistors, giving an overall equivalent circuit resistance of $10\\, \\Omega + 10\\, \\Omega + 30\\, \\Omega + 10\\, \\Omega = 60\\, \\Omega$. Therefore, the current supplied by the battery is $I = \\frac{V}{R} = \\frac{120\\, \\text{V}}{60\\, \\Omega} = 2\\, \\text{A}$, so it must supply energy at a rate of $P = IV = (2\\, \\text{A})(120\\, \\text{V}) = 240\\, \\text{W}$.\n",
+            "ImagePath": "Physics_Free_Response/24"
+        },
+        {
+            "Question": "Consider the following circuit, Find the current through the 40 \u03a9 resistor.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{1.5} Since three times as much current will flow through the $40\\, \\Omega$ resistor as through the branch containing $120\\, \\Omega$ of resistance, the current through the $40\\, \\Omega$ resistor must be $1.5\\, \\text{A}$.\n",
+            "ImagePath": "Physics_Free_Response/24"
+        },
+        {
+            "Question": "Consider the following circuit, Determine the potential difference between points a and b.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{60} $V_a - V_b = IR_{20} + IR_{100} = (0.5\\, \\text{A})(20\\, \\Omega) + (0.5\\, \\text{A})(100\\, \\Omega) = 60\\, \\text{V}.$\n",
+            "ImagePath": "Physics_Free_Response/24"
+        },
+        {
+            "Question": "Consider the following circuit, Given that the 100 \u03a9 resistor is a solid cylinder that's 4 cm long, composed of a material whose resistivity is 0.45 \u03a9 o m, determine its radius.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{7.6} Using the equation $R = \\frac{\\rho L}{A}$, with $A = \\pi r^2$, you get\n$R = \\frac{\\rho L}{\\pi r^2} \\Rightarrow r = \\sqrt{\\frac{\\rho L}{\\pi R}} = \\sqrt{\\frac{(0.45\\, \\Omega \\cdot \\text{m})(0.04\\, \\text{m})}{\\pi (100\\, \\Omega)}} = 0.0076\\, \\text{m} = 7.6\\, \\text{mm}$\n",
+            "ImagePath": "Physics_Free_Response/24"
+        },
+        {
+            "Question": "Consider the following circuit, What is the equivalent resistance of the circuit?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{30} The equivalent resistance of the circuit can be solved either by adding the resistances or by using Ohm's Law.\n\nIf you want to add resistances, start by summing the $20\\, \\Omega$ and $40\\, \\Omega$ resistors to get $60\\, \\Omega$. Then add the three parallel branches using\n$R_p = \\frac{1}{\\frac{1}{R_1} + \\frac{1}{R_2} + \\frac{1}{R_3}}$\nor\n$R_p = \\frac{1}{\\frac{1}{60\\, \\Omega} + \\frac{1}{60\\, \\Omega} + \\frac{1}{60\\, \\Omega}}$\nwhich becomes $20\\, \\Omega$. Then adding this section in series to the $10\\, \\Omega$ resistor to get\n$R_p = R_1 + R_2 = 10\\, \\Omega + 20\\, \\Omega = 30\\, \\Omega$.\n\nYou could have also realized that the total voltage drop across the battery is $45\\, V$ ($15\\, V$ across the $10\\, \\Omega$ resistor and $30\\, V$ across the parallel branch). Using Ohm's Law again,\n$R_{\\text{eq}} = \\frac{V_{\\text{B}}}{I_{\\text{B}}} = \\frac{45\\, V}{1.5\\, A} = 30\\, \\Omega$.\n\n",
+            "ImagePath": "Physics_Free_Response/25"
+        },
+        {
+            "Question": "Two trials of a double-slit interference experiment are set up as follows. The slit separation is d = 0.50 mm, and the distance to the screen, L, is 4.0 m. What is the vertical separation on the screen (in mm) between the first-order maxima for red light (\u03bb = 750 nm) and violet light (\u03bb = 400 nm)?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{2.8} Maxima are located at positions given by the equation $x_m = \\frac{m\\lambda L}{d}$, where $m$ is an integer ($m_0 = 0$ is the central maximum). The first-order maximum for red light occurs at\n$x_{1, \\text{red}} = \\frac{1 \\cdot \\lambda_{\\text{red}} \\cdot L}{d} = \\frac{1 \\cdot (750 \\times 10^{-9}\\, \\text{m}) \\cdot (4.0\\, \\text{m})}{0.50 \\times 10^{-3}\\, \\text{m}} = 0.006\\, \\text{m} = 6.0\\, \\text{mm}$\n\nand the first-order maximum for violet light occurs at\n$x_{1, \\text{violet}} = \\frac{1 \\cdot \\lambda_{\\text{violet}} \\cdot L}{d} = \\frac{1 \\cdot (400 \\times 10^{-9}\\, \\text{m}) \\cdot (4.0\\, \\text{m})}{0.50 \\times 10^{-3}\\, \\text{m}} = 0.0032\\, \\text{m} = 3.2\\, \\text{mm}$\n\nTherefore, the vertical separation of these maxima on the screen is $\\Delta x = 6.0\\, \\text{mm} - 3.2\\, \\text{mm} = 2.8\\, \\text{mm}$.\n",
+            "ImagePath": "Physics_Free_Response/26"
+        },
+        {
+            "Question": "Two trials of a double-slit interference experiment are set up as follows. The slit separation is d = 0.50 mm, and the distance to the screen, L, is 4.0 m. What is the separation between adjacent bright fringes on the screen?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{2.7} Within the glass, the wavelength is reduced by a factor of $n = 1.5$ from the wavelength in air. Therefore, the difference in path lengths, $d \\sin \\theta$, must be equal to $m(\\lambda/n)$ in order for constructive interference to occur. This implies that the maxima are located at positions given by $x_m = \\frac{m\\lambda L}{(nd)}$.\nThe distance between adjacent bright fringes is therefore\n$x_{m+1} - x_m = \\left(\\frac{(m+1)\\lambda}{nd}\\right) - \\left(\\frac{m\\lambda}{nd}\\right) = \\frac{\\lambda}{nd} = \\frac{(500 \\times 10^{-9}\\, \\text{m})(4.0\\, \\text{m})}{1.5(0.50 \\times 10^{-3}\\, \\text{m})} = 0.0027\\, \\text{m} = 2.7\\, \\text{mm}$.\n",
+            "ImagePath": "Physics_Free_Response/26"
+        },
+        {
+            "Question": "The circuit shown is built and the voltage source supplies voltage for 15 minutes before the battery is completely drained. Assume the voltage supplied by the battery is constant at 12 V until the battery is drained, after which the battery supplies 0 V.  What is the equivalent resistance of the circuit?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{44} (a) The resistors in parallel are combined first.\n$\\frac{1}{R_{\\text{eq}}} = \\frac{1}{40} + \\frac{1}{60}$\n$R_{\\text{eq}} = 24\\, \\Omega$\n\nThe total equivalent resistance is then $R_{\\text{total}} = 24 + 20 = 44\\, \\Omega$.\n",
+            "ImagePath": "Physics_Free_Response/27"
+        },
+        {
+            "Question": "The circuit shown is built and the voltage source supplies voltage for 15 minutes before the battery is completely drained. Assume the voltage supplied by the battery is constant at 12 V until the battery is drained, after which the battery supplies 0 V. Two students are discussing the apparatus. Student 1 says, \"If the 20 \u03a9 resistor were not present, the overall resistance of the circuit would have been lower and the battery would have lasted longer.\" Student 2 says, \"If the 20 \u03a9 resistor were not present, I think the power output would have been higher and the battery would have drained faster.\" What is the the overall resistance if  without the 20 \u03a9 resistor present.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{24} Without the resistor, there would only be the parallel resistor combination.\n$\\frac{1}{R_{\\text{total}}} = \\frac{1}{40} + \\frac{1}{60}$\n$R_{\\text{total}} = 24\\, \\Omega$\n",
+            "ImagePath": "Physics_Free_Response/27"
+        }
+    ],
+    "Chemistry_Free_Response": [
+        {
+            "Question": "The above mass spectra is for the hypochlorite ion, ClO$^-$. Oxygen has only one stable isotope, which has a mass of 16 amu. How many neutrons does the most common isotope of chlorine have?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{18} The most common mass of a ClO- ion is 51 amu. 51 amu-16 amu = 35 amu, which must be the mass of the most common isotope of chlorine. As mass number is equal to protons + neutrons, and chlorine has 17 protons (its atomic number), 35 - 17 = 18 neutrons.",
+            "Comment": " ",
+            "category": "Atoms, Elements, and the Building Blocks",
+            "ImagePath": "Chemistry_Free_Response/1"
+        },
+        {
+            "Question": "The above mass spectra is for the hypochlorite ion, ClO$^-$. Oxygen has only one stable isotope, which has a mass of 16 amu. Using the spectra, calculate the average mass of a hypochlorite ion.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{51.5} 51(0.75) + 53(0.25) = 51.5",
+            "category": "Atoms, Elements, and the Building Blocks",
+            "ImagePath": "Chemistry_Free_Response/1"
+        },
+        {
+            "Question": "The above mass spectra is for the hypochlorite ion, ClO$^-$. Oxygen has only one stable isotope, which has a mass of 16 amu. Does the negative charge on the ion affect the spectra? (Yes or No)  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{No} The only subatomic particles that contribute to the mass of any atom are neutrons and protons. Changing the number of electrons does not change the mass significantly.",
+            "Comment": "Yes or No",
+            "category": "Atoms, Elements, and the Building Blocks",
+            "ImagePath": "Chemistry_Free_Response/1"
+        },
+        {
+            "Question": "The above PES belongs to a neutral chlorine atom. What wavelength of light would be required to eject a 3s electron from chlorine?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{4.9e-8} The 3s electron belongs to the peak located at 2.44 MJ/mol. First, you need to calculate the amount of energy needed to remove a single 3s electron (rather than a mole of them): \\[ \\frac{2.44 \\, \\text{MJ}}{1 \\, \\text{mol}} \\times \\frac{1 \\, \\text{mol}}{6.02 \\times 10^{23} \\, \\text{electrons}} = 4.05 \\times 10^{-24} \\, \\text{MJ} = 4.05 \\times 10^{-18} \\, \\text{J} \\] Then, you can use E = hc/\u03bb to calculate the wavelength of light that would have sufficient energy:  \\[ 4.05 \\times 10^{-18} \\, \\text{J} = \\frac{(6.63 \\times 10^{-34} \\, \\text{Js})(3.0 \\times 10^{8} \\, \\text{m/s})}{\\lambda} \\] \\[ \\lambda = 4.9 \\times 10^{-8} \\, \\text{m} \\]",
+            "Comment": " ",
+            "category": "Atoms, Elements, and the Building Blocks",
+            "ImagePath": "Chemistry_Free_Response/2"
+        },
+        {
+            "Question": "The photoelectron spectrum of an element is given below: Identify the element this spectra most likely belongs to and write out its full electron configuration. (Answer is a hybridization)",
+            "Answer (final answer highlighted)": "\\answer{$1s^22s^22p^63s^23p^4}",
+            "Comment": "Fill blank",
+            "category": "Atoms, Elements, and the Building Blocks",
+            "ImagePath": "Chemistry_Free_Response/3"
+        },
+        {
+            "Question": "The acetyl ion has a formula of C$_2$H$_3$O$^-$ and two possible Lewis electron-dot diagram representations: Using formal charge, determine which (left or right) structure is the most likely correct structure. (Answer is a single word)",
+            "Answer (final answer highlighted)": "\\answer{Left} For this formal charge calculation, the H atoms are left out as they are identically bonded/drawn in both structures. As oxygen is more electronegative than carbon, an oxygen atom is more likely to have the negative formal charge than a carbon atom. The left-hand structure is most likely correct.",
+            "Comment": "Fill blank",
+            "category": "Bonding and Phases",
+            "ImagePath": "Chemistry_Free_Response/4"
+        },
+        {
+            "Question": "The acetyl ion has a formula of C$_2$H$_3$O$^-$ and two possible Lewis electron-dot diagram representations: What is the hybridization around the atom? (Answer is a hybridization)",
+            "Answer (final answer highlighted)": "\\answer{$sp^2$} There are three charge groups around the carbon atom",
+            "Comment": "Fill blank",
+            "category": "Bonding and Phases",
+            "ImagePath": "Chemistry_Free_Response/4"
+        },
+        {
+            "Question": "The graph above shows the changes in pressure with changing temperature of gas samples of helium and argon confined in a closed 2-liter vessel. What is the total pressure of the two gases in the container at a temperature of 200 K?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{2.5} Read the graph, and add the two pressures. $P_{Total}$ = $P_{He}$ + $P_{Ar}$ $P_{Total}$ = (1 atm) + (1.5 atm) = 2.5 atm",
+            "Comment": " ",
+            "category": "Bonding and Phases",
+            "ImagePath": "Chemistry_Free_Response/5"
+        },
+        {
+            "Question": "The graph above shows the changes in pressure with changing temperature of gas samples of helium and argon confined in a closed 2-liter vessel. How many moles of helium are contained in the vessel?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{0.12} \\[ n = \\frac{PV}{RT} = \\frac{(1.0 \\, \\text{atm})(2.0 \\, \\text{L})}{(0.082 \\, \\text{L} \\cdot \\text{atm/mol} \\cdot \\text{K})(200 \\, \\text{K})} = 0.12 \\, \\text{moles} \\]",
+            "Comment": " ",
+            "category": "Bonding and Phases",
+            "ImagePath": "Chemistry_Free_Response/5"
+        },
+        {
+            "Question": "The graph above shows the changes in pressure with changing temperature of gas samples of helium and argon confined in a closed 2-liter vessel. How many molecules of helium are contained in the vessel?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{7.2e22} Use the definition of a mole. Molecules = (moles)(6.02 \u00d7 10$^23$) Molecules (atoms) of helium = (0.12)(6.02 \u00d7 1023) = 7.2 \u00d7 10$^22$",
+            "Comment": " ",
+            "category": "Bonding and Phases",
+            "ImagePath": "Chemistry_Free_Response/5"
+        },
+        {
+            "Question": "The graph above shows the changes in pressure with changing temperature of gas samples of helium and argon confined in a closed 2-liter vessel. If the volume of the container were reduced to 1 liter at a constant temperature of 300 K, what would be the new pressure of the helium gas?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{3} Since T is a constant, the equation becomes: P1V1 = P2V2 (1.5 atm)(2.0 L) = P2(1.0 L) P2 = 3.0 atm",
+            "Comment": " ",
+            "category": "Bonding and Phases",
+            "ImagePath": "Chemistry_Free_Response/5"
+        },
+        {
+            "Question": "A student performs an experiment in which a butane lighter is held underwater directly beneath a 100-mL graduated cylinder which has been filled with water as shown in the diagram below. The switch on the lighter is pressed, and butane gas is released into the graduated cylinder. The student's data table for this lab is as follows: Mass of lighter before gas release: 20.432 g Mass of lighter after gas release: 20.296 g Volume of gas collected: 68.40 mL Water Temperature: 19.0\u00b0C Atmospheric Pressure: 745 mmHg. Given that the vapor pressure of water at 19.0\u00b0C is 16.5 mmHg, determine the partial pressure of the butane gas collected in atmospheres.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{0.959} 745 mmHg - 16.5 mmHg = 729 mmHg, 729/760=0.959",
+            "Comment": " ",
+            "category": "Bonding and Phases",
+            "ImagePath": "Chemistry_Free_Response/6"
+        },
+        {
+            "Question": "A student performs an experiment in which a butane lighter is held underwater directly beneath a 100-mL graduated cylinder which has been filled with water as shown in the diagram below. The switch on the lighter is pressed, and butane gas is released into the graduated cylinder. The student's data table for this lab is as follows: Mass of lighter before gas release: 20.432 g Mass of lighter after gas release: 20.296 g Volume of gas collected: 68.40 mL Water Temperature: 19.0\u00b0C Atmospheric Pressure: 745 mmHg. Calculate the molar mass of butane gas from the experimental data given.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{49.6} To determine the mass of the butane, subtract the mass of the lighter after the butane was released from the mass of the lighter before the butane was released. 20.432 g - 20.296 g = 0.136 g To determine the moles of butane, use the Ideal Gas Law, making any necessary conversions first. PV = nRT (0.959 atm)(0.06840 L) = n(0.0821 atm\u00b7L/mol\u00b7K)(292 K) n = 2.74 \u00d7 10$^{-3}$ mol Molar mass is defined as grams per mole, so 0.136 g/2.74 \u00d7 10$^{-3}$ mol = 49.6 g/mol",
+            "Comment": " ",
+            "category": "Bonding and Phases",
+            "ImagePath": "Chemistry_Free_Response/6"
+        },
+        {
+            "Question": "A student performs an experiment in which a butane lighter is held underwater directly beneath a 100-mL graduated cylinder which has been filled with water as shown in the diagram below. The switch on the lighter is pressed, and butane gas is released into the graduated cylinder. The student's data table for this lab is as follows: Mass of lighter before gas release: 20.432 g Mass of lighter after gas release: 20.296 g Volume of gas collected: 68.40 mL Water Temperature: 19.0\u00b0C Atmospheric Pressure: 745 mmHg. If the formula of butane is C$_4$H$_{10}$, determine the percent error for the student's results.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{14.5} Actual molar mass of butane: \\[ (12.00 \\, \\text{g/mol} \\times 4) + (1.01 \\, \\text{g/mol} \\times 10) = 58.08 \\, \\text{g/mol} \\] Percent error is: \\[ \\frac{\\left| \\text{Actual value} - \\text{experimental value} \\right|}{\\text{Actual value}} \\times 100\\% \\] So: \\[ \\frac{\\left| 58.08 - 49.6 \\right|}{58.08} \\times 100\\% = 14.5\\% \\text{ error} \\]",
+            "Comment": " ",
+            "category": "Bonding and Phases",
+            "ImagePath": "Chemistry_Free_Response/6"
+        },
+        {
+            "Question": "A student performs an experiment in which a bar of unknown metal M is placed in a solution with the formula MNO$_3$. The metal is then hooked up to a copper bar in a solution of CuSO$_4$ as shown below. A salt bridge that contains aqueous KCl links the cell together. The cell potential is found to be +0.74 V. Separately, when a bar of metal M is placed in the copper sulfate solution, solid copper starts to form on the bar. When a bar of copper is placed in the MNO$_3$ solution, no visible reaction occurs. The following gives some reduction potentials for copper: Half-reactions and their standard electrode potentials (E): 1. For the reaction \\( \\text{Cu}^{2+} + 2\\text{e}^- \\rightarrow \\text{Cu(s)} \\), \\( E = 0.34 \\, \\text{V} \\) 2. For the reaction \\( \\text{Cu}^{2+} + \\text{e}^- \\rightarrow \\text{Cu}^+ \\), \\( E = 0.15 \\, \\text{V} \\) 3. For the reaction \\( \\text{Cu}^+ + \\text{e}^- \\rightarrow \\text{Cu(s)} \\), \\( E = 0.52 \\, \\text{V} \\). What is the standard reduction potential for metal M?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{-0.4} \\[ E_{\\text{red}} + E_{\\text{ox}} = +0.74 \\, \\text{V} \\] The reduction potential for \\( \\text{Cu}^{2+} + 2\\text{e}^- \\rightarrow \\text{Cu(s)} \\) is known: \\[ 0.34 \\, \\text{V} + E_{\\text{ox}} = +0.74 \\, \\text{V} \\] \\[ E_{\\text{ox}} = +0.40 \\, \\text{V} \\] The reduction potential for metal M is the opposite of its oxidation potential. \\[ E_{\\text{red}} = -0.40 \\, \\text{V} \\]",
+            "Comment": " ",
+            "category": "Chemical Reactions, Energy Changes, and Redox Reactions",
+            "ImagePath": "Chemistry_Free_Response/7"
+        },
+        {
+            "Question": "2NO(g) + Br$_2$(g) \u2192 2NOBr(g) The following results in the figure were obtained in experiments designed to study the rate of the reaction above: Calculate the value of the rate constant, k, for the reaction.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{6e3} Using the values from experiment 1, we first need to realize that the rate of reaction would be half of the rate of appearance of NOBr, because of the \"2\" coefficient in front of the NOBr. So, the rate of reaction for experiment 1 would be 0.0096/2 = 0.0048 M/s. Plugging that into the rate law yields: Rate = k[NO]$^2$[Br$_2$] 0.0048 M/s = (0.02 M)2(0.02 M) k = 6 \u00d7 10$^3$ M$^{-2}$s$^{-1}$",
+            "Comment": " ",
+            "category": "Chemical Reactions and Their Rates",
+            "ImagePath": "Chemistry_Free_Response/8"
+        },
+        {
+            "Question": "The decomposition of phosphine occurs via the pathway below: 4PH$_3$(g) \u2192 P$_4$(g) + 6H$_2$(g) A scientist observing this reaction at 250 K plots the following data: If the rate of disappearance of PH$)3$ is 2.5 \u00d7 10$^{-3}$ M/s at t = 20 s: What is the rate of appearance of P$_4$ at the same point in time?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{6.3e-4} Use the stoichiometric ratios to determine the rate of appearance of \\( P_4 \\): \\[ 2.5 \\times 10^{-3} \\, \\frac{\\text{M}}{\\text{s}} \\text{PH}_3 \\times \\frac{1 \\, \\text{mol} \\, P_4}{4 \\, \\text{mol} \\, \\text{PH}_3} = 6.3 \\times 10^{-4} \\, \\frac{\\text{M}}{\\text{s}} \\text{P}_4 \\]",
+            "Comment": " ",
+            "category": "Chemical Reactions and Their Rates",
+            "ImagePath": "Chemistry_Free_Response/9"
+        },
+        {
+            "Question": "The boiling points of three different compounds are listed below, along with their formulas. What is the hybridization around atom $C_2$ in the acetaldehyde molecule? (Answer is a hybridization)",
+            "Answer (final answer highlighted)": "\\answer{$sp^2$} Three charge clouds means the hybridization is $sp^2$ ",
+            "Comment": "Fill blank",
+            "category": "Long Free-Response Question",
+            "ImagePath": "Chemistry_Free_Response/10"
+        },
+        {
+            "Question": "A galvanic cell is set up according to the following diagram. Calculate $E^{\\circ}_{cell}$ (V).  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{0.94} +0.80 V - (-0.14 V) = +0.94 V",
+            "category": "Long Free-Response Question",
+            "ImagePath": "Chemistry_Free_Response/11"
+        },
+        {
+            "Question": "A galvanic cell is set up according to the following diagram. The beaker of Sn(NO$_3$)$_2$ is disconnected from the cell, and the tin electrode is then connected to an outside source of current. Over the course of 10.0 minutes, 1.65 g of tin plates out onto the electrode. What is the amperage of the current source?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{4.47} The beaker of Sn(NO$_3$)$_2$ is disconnected from the cell, and the tin electrode is then connected to an outside source of current. Over the course of 10.0 minutes, 1.65 g of tin plates out onto the electrode. What is the amperage of the current source? \\[ 1.65 \\, \\text{g Sn} \\times \\frac{1 \\, \\text{mol Sn}}{118.71 \\, \\text{g}} \\times \\frac{2 \\, \\text{mol e}^-}{1 \\, \\text{mol Sn}} \\times \\frac{96500 \\, \\text{C}}{1 \\, \\text{mol e}^-} \\times \\frac{1}{600 \\, \\text{s}} = 4.47 \\, \\text{A} \\]",
+            "Comment": " ",
+            "category": "Long Free-Response Question",
+            "ImagePath": "Chemistry_Free_Response/11"
+        },
+        {
+            "Question": "0.10 mol of solid gallium initially at room temperature is heated at a constant rate, and its temperature is tracked, leading to the above graph. Calculate the specific heat capacity of solid gallium in J g$^{-1}$ \u00b0C$^{-1}$.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{0.344} From the graph, you can see that it takes approximately 12.0 J of heat to raise the temperature of the gallium by 5.0\u00b0C. Additionally, 0.10 mol Ga \u00d7 69.7 g/mol = 6.97 g of gallium. q = mc\u0394T 12.0 J = (6.97 g)(c)(5.0\u00b0C) c = 0.344 J g$^{-1}$ \u00b0C$^{-1}$",
+            "Comment": " ",
+            "category": "Long Free-Response Question",
+            "ImagePath": "Chemistry_Free_Response/12"
+        },
+        {
+            "Question": "0.10 mol of solid gallium initially at room temperature is heated at a constant rate, and its temperature is tracked, leading to the above graph. The gallium continues to be heated until it fully boils. Assume ideal behavior for the gallium gas. The reaction described is the phase transition of gallium from liquid to gas: \\text{Ga(l)} \\rightarrow \\text{Ga(g)}. For the substances involved, the standard enthalpy change (\\( H^\\circ \\)) in \\(\\text{kJ mol}^{-1}\\) is given as: For $\\text{Ga(l)}\\), \\( H^\\circ \\) is \\(5.60 \\text{ kJ mol}^{-1}$ For \\text{Ga(g)}\\), \\( H^\\circ \\) is \\(277.1 \\text{ kJ mol}^{-1}\\). Calculate the enthalpy of vaporization for gallium in kJ mol$^{-1}$ given the above data.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{271.5} Calculate the enthalpy of vaporization for gallium given the above data. This is just products-reactants, so 277.1 - 5.60 = 271.5 kJ mol$^{-1}$",
+            "Comment": " ",
+            "category": "Long Free-Response Question",
+            "ImagePath": "Chemistry_Free_Response/12"
+        },
+        {
+            "Question": "0.10 mol of solid gallium initially at room temperature is heated at a constant rate, and its temperature is tracked, leading to the above graph. The gallium continues to be heated until it fully boils. Assume ideal behavior for the gallium gas. The reaction described is the phase transition of gallium from liquid to gas: \\text{Ga(l)} \\rightarrow \\text{Ga(g)}. For the substances involved, the standard enthalpy change (\\( H^\\circ \\)) in \\(\\text{kJ mol}^{-1}\\) is given as: For $\\text{Ga(l)}\\), \\( H^\\circ \\) is \\(5.60 \\text{ kJ mol}^{-1}$ For \\text{Ga(g)}\\), \\( H^\\circ \\) is \\(277.1 \\text{ kJ mol}^{-1}\\). Given the enthalpy of vaporization for gallium as 271.5 kJ mol$^{-1}$, and that \u0394S\u00b0 = 113.4 J mol$^{-1}$ K$^{-1}$ for the boiling of gallium, what is the boiling point of the gallium in K?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{2394} During any phase change, \u0394G\u00b0 = 0. With that information, and converting the units to match: \u0394G\u00b0 = \u0394H\u00b0 - T\u0394S\u00b0, 0 = 271.5 kJ mol$^{-1}$ - T(0.1134 kJ mol$^{-1}$ K$^{-1}$), T = 2394 K",
+            "Comment": " ",
+            "category": "Long Free-Response Question",
+            "ImagePath": "Chemistry_Free_Response/12"
+        },
+        {
+            "Question": "5.00 g of PbCl$_2$ is added to 300 mL of water in a 400 mL beaker, which is then heated for 10 minutes. At the end of the heating period, some solid PbCl$_2$ is still present at the bottom of the beaker, and the solution is cooled to room temperature before being left out overnight. The next day, 100 mL of the saturated solution is decanted into a separate 250 mL beaker, taking care not to transfer any remaining solid. 100 mL of 0.75 $M$ KI solution is added, causing the following precipitation reaction to go to completion. Pb$^{2+}$ + 2I$^-$ \u2192 PbI$_2$(s). The PbI$_2$ is filtered out, dried, and massed. The mass of the precipitate is found to be 0.747 g. How many moles of Pb$^{2+}$ are in the PbI$_2$ precipitate?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{0.00162} $$ 0.747 \\, \\text{g} \\, \\text{PbI}_2 \\times \\frac{1 \\, \\text{mol} \\, \\text{PbI}_2}{461 \\, \\text{g} \\, \\text{PbI}_2} \\times \\frac{1 \\, \\text{mol} \\, \\text{Pb}}{1 \\, \\text{mol} \\, \\text{PbI}_2} = 0.00162 \\, \\text{moles} $$",
+            "Comment": " ",
+            "category": "Long Free-Response Question",
+            "ImagePath": "Chemistry_Free_Response/13"
+        },
+        {
+            "Question": "5.00 g of PbCl$_2$ is added to 300 mL of water in a 400 mL beaker, which is then heated for 10 minutes. At the end of the heating period, some solid PbCl$_2$ is still present at the bottom of the beaker, and the solution is cooled to room temperature before being left out overnight. The next day, 100 mL of the saturated solution is decanted into a separate 250 mL beaker, taking care not to transfer any remaining solid. 100 mL of 0.75 $M$ KI solution is added, causing the following precipitation reaction to go to completion. Pb$^{2+}$ + 2I$^-$ \u2192 PbI$_2$(s). The PbI$_2$ is filtered out, dried, and massed. The mass of the precipitate is found to be 0.747 g. What is the concentration of Pb$^{2+}$ in the saturated solution that was decanted from the beaker?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{0.016} $$ 0.335 \\, \\text{g} \\, \\text{Pb} \\times \\frac{1 \\, \\text{mol} \\, \\text{Pb}}{207 \\, \\text{g} \\, \\text{Pb}} = \\frac{1.62 \\times 10^{-3} \\, \\text{mol} \\, \\text{Pb}}{0.100 \\, \\text{L}} = 0.016 \\, M $$",
+            "Comment": " ",
+            "category": "Long Free-Response Question",
+            "ImagePath": "Chemistry_Free_Response/13"
+        },
+        {
+            "Question": "5.00 g of PbCl$_2$ is added to 300 mL of water in a 400 mL beaker, which is then heated for 10 minutes. At the end of the heating period, some solid PbCl$_2$ is still present at the bottom of the beaker, and the solution is cooled to room temperature before being left out overnight. The next day, 100 mL of the saturated solution is decanted into a separate 250 mL beaker, taking care not to transfer any remaining solid. 100 mL of 0.75 $M$ KI solution is added, causing the following precipitation reaction to go to completion. Pb$^{2+}$ + 2I$^-$ \u2192 PbI$_2$(s). The PbI$_2$ is filtered out, dried, and massed. The mass of the precipitate is found to be 0.747 g. Calculate the solubility product constant, K$_{sp}$, for PbCl$_2$.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{1.63e-5} When the PbCl\\(_2\\) solution is saturated, the reaction is PbCl\\(_2\\) (s) \\(\\rightleftharpoons\\) Pb\\(^{2+}\\) + 2 Cl\\(^{-}\\). So, for every one Pb\\(^{2+}\\) ion, there will be two Cl\\(^{-}\\) ions. If [Pb\\(^{2+}\\)] = 0.016 M, then [Cl\\(^{-}\\)] = 0.032 M. K\\(_{sp}\\) = [Pb\\(^{2+}\\)][Cl\\(^{-}\\)]\\(^2\\), so K\\(_{sp}\\) = (0.016)(0.032)\\(^2\\) = 1.63 \\(\\times\\) 10\\(^{-5}\\)",
+            "Comment": " ",
+            "category": "Long Free-Response Question",
+            "ImagePath": "Chemistry_Free_Response/13"
+        },
+        {
+            "Question": "A sample of liquid butane (C$_4$H$_{10}$) in a pressurized lighter is set up directly beneath an aluminum can, as show in the diagram above. The can contains 100.0 mL of water, and when the butane is ignited, the temperature of the water inside the can increases from 25.0\u00b0C to 82.3\u00b0C. The total mass of butane ignited is found to be 0.51 g, the specific heat of water is 4.18 J/g\u00b7\u00b0C, and the density of water is 1.00 g/mL. How much heat did the water gain in kJ?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{24} The formula needed is q = mc\u0394T. The mass in the equation is the mass of the water, which is equal to 100.0 g (as the density of water is 1.0 g/mL). \u0394T = 82.3\u00b0C - 25.0\u00b0C = 57.3\u00b0C and c is given as 4.18 J/g\u00b0C, so: q = (100.0 g)(4.18 J/g\u00b7\u00b0C)(57.3\u00b0C) = 24 kJ",
+            "Comment": " ",
+            "category": "Long Free-Response Question",
+            "ImagePath": "Chemistry_Free_Response/14"
+        },
+        {
+            "Question": "A sample of liquid butane (C$_4$H$_{10}$) in a pressurized lighter is set up directly beneath an aluminum can, as show in the diagram above. The can contains 100.0 mL of water, and when the butane is ignited, the temperature of the water inside the can increases from 25.0\u00b0C to 82.3\u00b0C. The total mass of butane ignited is found to be 0.51 g, the specific heat of water is 4.18 J/g\u00b7\u00b0C, and the density of water is 1.00 g/mL. What is the experimentally determined heat of combustion for butane based on this experiment? Your answer should be in kJ/mol.   (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{-2700} 0.51 g C$_4$H$_{10}$ \u00d7 1 mol C$_4$H$_{10}$/58.14 g C$_4$H$_{10}$ = 0.0088 mol C$_4$H$_{10}$ The sign on the heat calculated in (b)(i) needs to be flipped, as the combustion reaction will generate as much heat as the water gained. -24 kJ/0.0088 mol C$_4$H$_{10}$ = -2,700 kJ/mol",
+            "Comment": " ",
+            "category": "Long Free-Response Question",
+            "ImagePath": "Chemistry_Free_Response/14"
+        },
+        {
+            "Question": "A sample of liquid butane (C$_4$H$_{10}$) in a pressurized lighter is set up directly beneath an aluminum can, as show in the diagram above. The can contains 100.0 mL of water, and when the butane is ignited, the temperature of the water inside the can increases from 25.0\u00b0C to 82.3\u00b0C. The total mass of butane ignited is found to be 0.51 g, the specific heat of water is 4.18 J/g\u00b7\u00b0C, and the density of water is 1.00 g/mL. Given butane's density of 0.573 g/mL at 25\u00b0C, calculate how much heat (in kJ) would be emitted if 5.00 mL of it were combusted at that temperature.   (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{130} 0.573 g/mL = m/5.00 mL m = 2.87 g butane 2.87 g C$_4$H$_{10}$ \u00d7 1 mol C$_4$H$_{10}$/58.14 g C$_4$H$_{10}$ = 0.049 mol C$_4$H$_{10}$ 0.049 mol C$_4$H$_{10}$ \u00d7 2700 kJ/mol = 130 kJ of heat emitted.",
+            "Comment": " ",
+            "category": "Long Free-Response Question",
+            "ImagePath": "Chemistry_Free_Response/14"
+        },
+        {
+            "Question": "Current is run through an aqueous solution of nickel (II) fluoride, and a gas is evolved at the right-hand electrode, as indicated by the diagram below. The standard reduction potential for several reactions is given as follows: For the half-cell reaction of fluorine gas, where fluorine is reduced to fluoride ions, the standard reduction potential is \\( +2.87 \\) volts: $$ \\text{F}_2(g) + 2 \\text{e}^- \\rightarrow 2 \\text{F}^- $$ For the reduction of oxygen gas in the presence of protons to form water, the standard reduction potential is \\( +1.23 \\) volts: $$ \\text{O}_2(g) + 4 \\text{H}^+ + 4 \\text{e}^- \\rightarrow 2 \\text{H}_2\\text{O}(l) $$ For the reduction of nickel ions to solid nickel, the standard reduction potential is \\( -0.25 \\) volts: $$ \\text{Ni}^{2+} + 2 \\text{e}^- \\rightarrow \\text{Ni}(s) $$ Finally, for the reduction of water to hydrogen gas and hydroxide ions, the standard reduction potential is \\( -0.83 \\) volts: $$ 2 \\text{H}_2\\text{O}(l) + 2 \\text{e}^- \\rightarrow \\text{H}_2(g) + 2 \\text{OH}^- $$. Calculate the standard cell potential of the cell.   (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{-1.48} E\u00b0$_{cell}$ = E\u00b0$_{ox}$ + E\u00b0$_{red}$ = -1.23 V + (-0.25 V) = -1.48 V",
+            "Comment": " ",
+            "category": "Long Free-Response Question",
+            "ImagePath": "Chemistry_Free_Response/15"
+        },
+        {
+            "Question": "Current is run through an aqueous solution of nickel (II) fluoride, and a gas is evolved at the right-hand electrode, as indicated by the diagram below. The standard reduction potential for several reactions is given as follows: For the half-cell reaction of fluorine gas, where fluorine is reduced to fluoride ions, the standard reduction potential is \\( +2.87 \\) volts: $$ \\text{F}_2(g) + 2 \\text{e}^- \\rightarrow 2 \\text{F}^- $$ For the reduction of oxygen gas in the presence of protons to form water, the standard reduction potential is \\( +1.23 \\) volts: $$ \\text{O}_2(g) + 4 \\text{H}^+ + 4 \\text{e}^- \\rightarrow 2 \\text{H}_2\\text{O}(l) $$ For the reduction of nickel ions to solid nickel, the standard reduction potential is \\( -0.25 \\) volts: $$ \\text{Ni}^{2+} + 2 \\text{e}^- \\rightarrow \\text{Ni}(s) $$ Finally, for the reduction of water to hydrogen gas and hydroxide ions, the standard reduction potential is \\( -0.83 \\) volts: $$ 2 \\text{H}_2\\text{O}(l) + 2 \\text{e}^- \\rightarrow \\text{H}_2(g) + 2 \\text{OH}^- $$. Calculate the Gibbs free energy value (in kJ) for the cell at standard conditions.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{380} \u0394G = -nFE n is equal to 4 moles of electrons (from the oxidation reaction). Even though n = 2 in the unbalanced reduction reaction, to balance the reaction, the reduction half-reaction would need to be multiplied by 2 so that the electrons balance. Additionally, a volt is equal to a Joule/Coulomb, which is what you should use to get the units to make sense. So \u0394G = -(4 mol e$^-$)(96,500 C/mol e$^-$)(-0.98 J/C) \u0394G = 380,000 J or 380 kJ",
+            "Comment": " ",
+            "category": "Long Free-Response Question",
+            "ImagePath": "Chemistry_Free_Response/15"
+        },
+        {
+            "Question": "The standard free energy change, \u0394G\u00b0, for the reaction above is \u2013801 kJ/mol$_{rxn}$ at 298 K. Use the figure of bond dissociation energies to find \u0394H\u00b0 for the reaction in the figure.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{-800} Use the relationship below. \u0394H\u00b0 = \u03a3 Energies of the bonds broken \u2013 \u03a3 Energies of the bonds formed, \u0394H\u00b0 = [(4)(415) + (2)(495)] \u2013 [(2)(799) + (4)(463)] kJ/mol, \u0394H\u00b0 = \u2013800 kJ/mol",
+            "Comment": " ",
+            "category": "Laws of Thermodynamics and Changes in Matter",
+            "ImagePath": "Chemistry_Free_Response/16"
+        },
+        {
+            "Question": "The standard free energy change, \u0394G\u00b0, for the reaction above is \u2013801 kJ/mol$_{rxn}$ at 298 K. How many grams of methane must react with excess oxygen in order to release 1500 kJ of heat?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{30} $$ 1,500 \\, \\text{kJ} \\times \\frac{1 \\, \\text{mol CH}_4}{800 \\, \\text{kJ}} = 1.9 \\, \\text{mol CH}_4 \\times \\frac{16.04 \\, \\text{g CH}_4}{1 \\, \\text{mol CH}_4} = 30 \\, \\text{g CH}_4 $$",
+            "Comment": " ",
+            "category": "Laws of Thermodynamics and Changes in Matter",
+            "ImagePath": "Chemistry_Free_Response/16"
+        },
+        {
+            "Question": "The standard free energy change, \u0394G\u00b0, for the reaction above is \u2013801 kJ/mol$_{rxn}$ at 298 K. What is the value of \u0394S\u00b0 (in J/K) for the reaction at 298 K?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{3} Use \\(\\Delta G^\\circ = \\Delta H^\\circ - T\\Delta S^\\circ\\) Remember that enthalpy values are given in kJ and entropy values are given in J. $$ \\Delta S^\\circ = \\frac{\\Delta H^\\circ - \\Delta G^\\circ}{T} = \\frac{(-800 \\, \\text{kJ/mol}) - (-801 \\, \\text{kJ/mol})}{(298 \\, \\text{K})} $$ $$ \\Delta S^\\circ = 0.003 \\, \\text{kJ/K} = 3 \\, \\text{J/K} $$",
+            "Comment": " ",
+            "category": "Laws of Thermodynamics and Changes in Matter",
+            "ImagePath": "Chemistry_Free_Response/16"
+        },
+        {
+            "Question": "For the boiling of methanol, CH$_3$OH, \u2206H\u00b0 = +37.6 kJ/mol and \u2206S\u00b0 = +111 J/mol \u2022 K. What is the boiling point of methanol in degrees Celsius?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{65.9} When a phase change is occurring, the value for \u2206G is always zero, as no real chemical reaction is occurring. Using that knowledge and making sure the units are matching (by converting the entropy to kJ/mol \u00d7 K), you get: \u2206G = \u2206H\u00b0 \u2013 T\u2206S\u00b0, 0 = 37.6 kJ/mol - T(0.111 kJ/mol \u00d7 K), T = 339 K Converting to Celsius: 339 K \u2013 273.15 = 65.9\u00b0C.",
+            "Comment": " ",
+            "category": "Laws of Thermodynamics and Changes in Matter",
+            "ImagePath": "Chemistry_Free_Response/17"
+        },
+        {
+            "Question": "For the boiling of methanol, CH$_3$OH, \u2206H\u00b0 = +37.6 kJ/mol and \u2206S\u00b0 = +111 J/mol \u2022 K. How much heat is required to boil 50.0 mL of ethanol if the density of ethanol is 0.789 g/mL?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{46.2} First, figure out how many moles of ethanol are present. $$ D = \\frac{m}{V} \\quad \\Rightarrow \\quad 0.789 \\frac{\\text{g}}{\\text{mL}} = \\frac{m}{50.0 \\text{mL}} \\quad \\Rightarrow \\quad m = 39.5 \\text{g CH}_3\\text{OH} $$ $$ 39.5 \\text{g} \\times \\frac{1 \\text{mol CH}_3\\text{OH}}{32.05 \\text{g}} = 1.23 \\text{mol CH}_3\\text{OH} $$ Then, use the \\(\\Delta H^\\circ\\) value to calculate the amount of heat needed. $$ 1.23 \\text{mol} \\times \\frac{37.6 \\text{kJ}}{\\text{mol}} = 46.2 \\text{kJ} $$",
+            "Comment": " ",
+            "category": "Laws of Thermodynamics and Changes in Matter",
+            "ImagePath": "Chemistry_Free_Response/17"
+        },
+        {
+            "Question": "Ammonia gas reacts with dinitrogen monoxide via the following reaction: 2NH$_3$ (g) + 3N$_2$O(g) \u2192 4N$_2$ (g) + 3H$_2$O(g) The absolute entropy values for the varying substances are listed in the figure. Calculate the entropy value for the overall reaction. Several bond enthalpies are listed in below: The enthalpies of various bonds are given as: The N-H bond has an enthalpy of \\( 388 \\text{ kJ/mol} \\). The N-O bond has an enthalpy of \\( 210 \\text{ kJ/mol} \\). The N=O bond has an enthalpy of \\( 630 \\text{ kJ/mol} \\). The N=N bond has an enthalpy of \\( 409 \\text{ kJ/mol} \\). The N\\(\\equiv\\)N bond has an enthalpy of \\( 941 \\text{ kJ/mol} \\). The O-H bond has an enthalpy of \\( 463 \\text{ kJ/mol} \\). Calculate the enthalpy value for the overall reaction (in J/mol\u00d7K).  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{289} Calculate the entropy value for the overall reaction. \u0394S = \u0394S$_{products}$ \u2013 \u0394S$_{reactants}$, \u0394S = [3(H2O) + 4(N2 )] \u2013 [2(NH3 ) + 3(N2O)], \u0394S = [3(189) + 4(192)] \u2013 [2(193) + 3(220)], \u0394S = 1335 \u2013 1046 \u0394S = 289 J/mol\u00d7K",
+            "Comment": " ",
+            "category": "Laws of Thermodynamics and Changes in Matter",
+            "ImagePath": "Chemistry_Free_Response/18"
+        },
+        {
+            "Question": "Ammonia gas reacts with dinitrogen monoxide via the following reaction: 2NH$_3$ (g) + 3N$_2$O(g) \u2192 4N$_2$ (g) + 3H$_2$O(g) The absolute entropy values for the varying substances are listed in the figure. Calculate the entropy value for the overall reaction. Several bond enthalpies are listed in below: The enthalpies of various bonds are given as: The N-H bond has an enthalpy of \\( 388 \\text{ kJ/mol} \\). The N-O bond has an enthalpy of \\( 210 \\text{ kJ/mol} \\). The N=O bond has an enthalpy of \\( 630 \\text{ kJ/mol} \\). The N=N bond has an enthalpy of \\( 409 \\text{ kJ/mol} \\). The N\\(\\equiv\\)N bond has an enthalpy of \\( 941 \\text{ kJ/mol} \\). The O-H bond has an enthalpy of \\( 463 \\text{ kJ/mol} \\). Calculate the enthalpy value for the overall reaction.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{-434} Calculate the enthalpy value for the overall reaction. To determine the amount of enthalpy change, Lewis structures of all of the species should be drawn. You have to account for not only how many bonds are within each molecule, but also how many of those molecules there are. For instance, there are three N\u2013H bonds in NH3 , so with two NH3 molecules there will be six total N\u2013H bonds broken. The bond energy for the other three molecules must be calculated the same way. \u2206H = Bonds broken (reactants) - bonds formed (products), \u2206H = [6(N\u2013H) + 6(N=O)] - [4(N\u2261N) + 6(O\u2013H)], \u2206H = [6(388) + 6(630)] \u2013 [4(941) + 6(463)], \u2206H = 6108 \u2013 6542 \u2206H = \u2013434 kJ/mol",
+            "Comment": " ",
+            "category": "Laws of Thermodynamics and Changes in Matter",
+            "ImagePath": "Chemistry_Free_Response/18"
+        },
+        {
+            "Question": "Ammonia gas reacts with dinitrogen monoxide via the following reaction: 2NH$_3$ (g) + 3N$_2$O(g) \u2192 4N$_2$ (g) + 3H$_2$O(g) The absolute entropy values for the varying substances are listed in the figure. Calculate the entropy value for the overall reaction. Several bond enthalpies are listed in below: The enthalpies of various bonds are given as: The N-H bond has an enthalpy of \\( 388 \\text{ kJ/mol} \\). The N-O bond has an enthalpy of \\( 210 \\text{ kJ/mol} \\). The N=O bond has an enthalpy of \\( 630 \\text{ kJ/mol} \\). The N=N bond has an enthalpy of \\( 409 \\text{ kJ/mol} \\). The N\\(\\equiv\\)N bond has an enthalpy of \\( 941 \\text{ kJ/mol} \\). The O-H bond has an enthalpy of \\( 463 \\text{ kJ/mol} \\). If 25.00 g of NH$_3$ reacts with 25.00 g of N$_2$O: What is the magnitude of the energy change? \n (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{-82.16} What is the magnitude of the energy change? To determine how much energy is released, the limiting reagent must be determined. For \\( \\text{NH}_3 \\): $$ 25.00 \\, \\text{g NH}_3 \\times \\frac{1 \\, \\text{mol NH}_3}{17.04 \\, \\text{g NH}_3} \\times \\frac{1 \\, \\text{mol}_{\\text{rxn}}}{2 \\, \\text{mol NH}_3} \\times \\frac{-434 \\, \\text{kJ}}{1 \\, \\text{mol}_{\\text{rxn}}} = -318.4 \\, \\text{kJ} $$ For \\( \\text{N}_2\\text{O} \\): $$ 25.00 \\, \\text{g N}_2\\text{O} \\times \\frac{1 \\, \\text{mol N}_2\\text{O}}{44.02 \\, \\text{g N}_2\\text{O}} \\times \\frac{1 \\, \\text{mol}_{\\text{rxn}}}{3 \\, \\text{mol N}_2\\text{O}} \\times \\frac{-434 \\, \\text{kJ}}{1 \\, \\text{mol}_{\\text{rxn}}} = -82.16 \\, \\text{kJ} $$. As the N$_2$O would produce less energy, it would run out first and is thus limiting. The answer is thus \u201382.16 kJ.",
+            "Comment": " ",
+            "category": "Laws of Thermodynamics and Changes in Matter",
+            "ImagePath": "Chemistry_Free_Response/18"
+        },
+        {
+            "Question": "A student designs an experiment to determine the specific heat of aluminum. The student heats a piece of aluminum with a mass of 5.86 g to various temperatures, then drops it into a calorimeter containing 25.0 mL of water. The following data in the figure is gathered during one of the trials. Given that the specific heat of water is 4.18 J/g\u00b7\u00b0C and assuming its density is exactly 1.00 g/mL, calculate the heat (in J) gained by the water.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{376} q = mc\u2206T, q = (25.0 g)(4.18 J/g\u00b7\u00b0C)(3.6\u00b0C), q = 376 J",
+            "Comment": " ",
+            "category": "Laws of Thermodynamics and Changes in Matter",
+            "ImagePath": "Chemistry_Free_Response/19"
+        },
+        {
+            "Question": "A student designs an experiment to determine the specific heat of aluminum. The student heats a piece of aluminum with a mass of 5.86 g to various temperatures, then drops it into a calorimeter containing 25.0 mL of water. The following data in the figure is gathered during one of the trials. Calculate the specific heat (J/g\u00b7\u00b0C) of aluminum from the experimental data given.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{0.780} The heat gained by the water is the same as the heat lost by the aluminum. q = mc\u2206T \u2013376 J = (5.86 g)(c)(\u201382.3\u00b0C) c = 0.780 J/g\u00b7\u00b0C",
+            "Comment": " ",
+            "category": "Laws of Thermodynamics and Changes in Matter",
+            "ImagePath": "Chemistry_Free_Response/19"
+        },
+        {
+            "Question": "A student designs an experiment to determine the specific heat of aluminum. The student heats a piece of aluminum with a mass of 5.86 g to various temperatures, then drops it into a calorimeter containing 25.0 mL of water. The following data in the figure is gathered during one of the trials. Calculate the enthalpy change for the cooling of aluminum in water in kJ/mol.   (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{1.73} $$ 5.86 \\, \\text{g Al} \\times \\frac{1 \\, \\text{mol Al}}{26.98 \\, \\text{g Al}} = 0.217 \\, \\text{mol Al} $$ $$ 376 \\, \\frac{\\text{J}}{0.217 \\, \\text{mol}} = 1730 \\, \\frac{\\text{J}}{\\text{mol}} = 1.73 \\, \\frac{\\text{kJ}}{\\text{mol}} $$",
+            "Comment": " ",
+            "category": "Laws of Thermodynamics and Changes in Matter",
+            "ImagePath": "Chemistry_Free_Response/19"
+        },
+        {
+            "Question": "A student designs an experiment to determine the specific heat of aluminum. The student heats a piece of aluminum with a mass of 5.86 g to various temperatures, then drops it into a calorimeter containing 25.0 mL of water. The following data in the figure is gathered during one of the trials. If the accepted specific heat of aluminum is 0.900 J/g\u00b7\u00b0C, calculate the percent error.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{13.3} The percentage error is calculated as: $$ \\% \\text{ error} = \\left| \\frac{\\text{experimental} - \\text{accepted}}{\\text{accepted}} \\right| \\times 100\\% $$ For the given values, the percentage error is: $$ \\left| \\frac{0.780 - 0.900}{0.900} \\right| \\times 100\\% = 13.3\\% \\text{ error} $$",
+            "Comment": " ",
+            "category": "Laws of Thermodynamics and Changes in Matter",
+            "ImagePath": "Chemistry_Free_Response/19"
+        },
+        {
+            "Question": "A student tests the conductivity of three different acid samples, each with a concentration of 0.10 M and a volume of 20.0 mL. The conductivity was recorded in microsiemens per centimeter in the figure. The HCl solution is then titrated with a 0.150 M solution of the weak base methylamine, CH$_3$NH$_2$ . (K$_b$ = 4.38 \u00d7 10$^{\u20134}$). Determine the pH of the solution after 20.0 mL of methylamine has been added.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{10.34} First, the number of moles of hydrogen ions and methylamine need to be determined. $$ \\text{H}^+: 0.010 \\, \\text{M} = \\frac{n}{0.020 \\, \\text{L}} \\quad \\Rightarrow \\quad n = 0.0020 \\, \\text{mol} $$ $$ \\text{CH}_3\\text{NH}_2: 0.150 \\, \\text{M} = \\frac{n}{0.020 \\, \\text{L}} \\quad \\Rightarrow \\quad n = 0.0030 \\, \\text{mol} $$ For the reaction: \\begin{align*} \\text{H}^+ + \\text{CH}_3\\text{NH}_2 & \\rightleftharpoons \\text{CH}_3\\text{NH}_3^+ \\\\ I & \\quad 0.0020 \\quad 0.0030 \\quad 0 \\\\ C & -0.0020 \\quad +0.0020 \\\\ E & \\quad 0 \\quad 0.0010 \\quad 0.0020 \\\\ \\end{align*} The new volume of the solution is \\(40.0 \\, \\text{mL}\\), which was used to calculate the concentrations of the ions in solution at equilibrium: $$ [\\text{CH}_3\\text{NH}_2] = \\frac{0.0010 \\, \\text{mol}}{0.040 \\, \\text{L}} = 0.025 \\, \\text{M} $$ $$ [\\text{CH}_3\\text{NH}_3^+] = \\frac{0.0020 \\, \\text{mol}}{0.040 \\, \\text{L}} = 0.050 \\, \\text{M} $$ Finally, use the Henderson-Hasselbalch equation: $$ \\text{pOH} = \\text{pK}_b + \\log{\\frac{[\\text{CH}_3\\text{NH}_2]}{[\\text{CH}_3\\text{NH}_3^+]}} $$ $$ \\text{pOH} = \\log{(4.38 \\times 10^{-4})} + \\log{\\frac{0.025}{0.050}} $$ $$ \\text{pOH} = 3.36 + 0.30 = 3.66 $$ $$ \\text{pH} + \\text{pOH} = 14 $$ $$ \\text{pH} = 14 - 3.66 = 10.34 $$",
+            "Comment": " ",
+            "category": "Equilibrium, Acids and Bases, Titrations, and Solubility",
+            "ImagePath": "Chemistry_Free_Response/20"
+        },
+        {
+            "Question": "Two electrodes are inserted into a solution of nickel (II) fluoride and a current of 2.20 A is run through them. A list of standard reduction potentials is in the figure. How long (in seconds) would it take to create 1.2 g of Ni(s) at the cathode?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{1790} $$ 1.20 \\, \\text{g Ni} \\times \\frac{1 \\, \\text{mol Ni}}{58.69 \\, \\text{g Ni}} \\times \\frac{2 \\, \\text{mol e}^-}{1 \\, \\text{mol Ni}} \\times \\frac{96,500 \\, \\text{C}}{1 \\, \\text{mol e}^-} \\times \\frac{1.0 \\, \\text{sec}}{2.20 \\, \\text{C}} = 1790 \\, \\text{seconds} $$",
+            "Comment": " ",
+            "category": "Chemical Reactions, Energy Changes, and Redox Reactions",
+            "ImagePath": "Chemistry_Free_Response/21"
+        },
+        {
+            "Question": "A + 2B \u2192 2C. The following results in the figure were obtained in experiments designed to study the rate of the reaction above. Calculate the value of the rate constant, k, for the reaction (in the unit of M$^{\u22121}$sec$^{\u22121}).   (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{1.2} Use the values from experiment 3, just because they look the simplest. $$ k = \\frac{\\text{Rate}}{[\\text{A}][\\text{B}]} = \\frac{1.2 \\times 10^{-2} \\, \\text{M/sec}}{(0.10 \\, \\text{M})(0.10 \\, \\text{M})} = 1.2 \\, \\text{M}^{-1}\\text{sec}^{-1} $$",
+            "Comment": " ",
+            "category": "Chemical Reactions and Their Rates",
+            "ImagePath": "Chemistry_Free_Response/22"
+        },
+        {
+            "Question": "A + 2B \u2192 2C. The following results in the figure were obtained in experiments designed to study the rate of the reaction above. If another experiment is attempted with [A] and [B], both 0.02-molar, what would be the initial rate (in M/sec) of disappearance of A?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{4.8e-4} Use the rate law. $$ \\text{Rate} = k[\\text{A}][\\text{B}] $$ $$ \\text{Rate} = (1.2 \\, \\text{M}^{-1}\\text{sec}^{-1})(0.02 \\, \\text{M})(0.02 \\, \\text{M}) = 4.8 \\times 10^{-4} \\, \\text{M/sec} $$",
+            "Comment": " ",
+            "category": "Chemical Reactions and Their Rates",
+            "ImagePath": "Chemistry_Free_Response/22"
+        },
+        {
+            "Question": "2N$_2$O$_5$ (g) \u2192 4NO$_2$ (g) + O$_2$ (g) The data in the figure below was gathered for the decomposition of N$_2$O$_5$ at 310 K via the equation above. What is the rate of appearance of NO$_2$ compare to the rate of disappearance of N$_2$O$_5$ ?   (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{0.5} Due to the stoichiometric ratios, 4 moles of NO$_2$ are created for every 2 moles of N$_2$O$_5$ that decompose. Therefore, the rate of appearance of NO$_2$ will be twice the rate of disappearance for N$_2$O$_5$ . As that rate is constantly changing over the course of the reaction, it is impossible to get exact values, but the ratio of 2:1 will stay constant.",
+            "Comment": " ",
+            "category": "Practice Test 2",
+            "ImagePath": "Chemistry_Free_Response/23"
+        },
+        {
+            "Question": "2N$_2$O$_5$ (g) \u2192 4NO$_2$ (g) + O$_2$ (g) The data in the figure below was gathered for the decomposition of N$_2$O$_5$ at 310 K via the equation above. What is the rate constant for this reaction in the unit of $s^{-1}$?   (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{5.4e-4} Interpreting the graph using slope-intercept form, you get \\(\\ln{[\\text{N}_2\\text{O}_5]_t} = -kt + \\ln{[\\text{N}_2\\text{O}_5]_0}\\). Any (non-intercept) values on the graph can be plugged in to determine the rate constant. Using at \\([\\text{N}_2\\text{O}_5] = 0.190 \\, \\text{M}\\) at \\(t = 500\\text{s}\\): $$ \\ln{(0.190)} = -k(500) + \\ln{(0.250)} $$ $$ -1.66 = -k(500) + 1.39 $$ $$ -0.27 = -k(500) $$ $$ k = 5.40 \\times 10^{-4} $$ In terms of units, if rate \\(= k[\\text{N}_2\\text{O}_5]\\), then via analyzing the units: \\(\\text{M/s} = k(\\text{M})\\) hence \\(k = \\text{s}^{-1}\\) So \\(k = 5.40 \\times 10^{-4} \\text{s}^{-1}\\). Any point along the line will give the same value (as it is equal to the negative slope of the line).",
+            "category": "Practice Test 2",
+            "ImagePath": "Chemistry_Free_Response/23"
+        },
+        {
+            "Question": "2N$_2$O$_5$ (g) \u2192 4NO$_2$ (g) + O$_2$ (g) The data in the figure below was gathered for the decomposition of N$_2$O$_5$ at 310 K via the equation above. What would the concentration of N$_2$O$_5$ in the unit of M be at t = 1500 s?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{0.111} Using the equation  \\(\\ln{[\\text{N}_2\\text{O}_5]_t} = -kt + \\ln{[\\text{N}_2\\text{O}_5]_0}\\): $$ \\ln{[\\text{N}_2\\text{O}_5]_{1500}} = -5.40 \\times 10^{-4} \\text{s}^{-1} \\times (1500 \\text{ s}) + \\ln{(0.250)} $$ $$ \\ln{[\\text{N}_2\\text{O}_5]_{1500}} = -2.20 $$ $$ [\\text{N}_2\\text{O}_5]_{1500} = 0.111 \\text{ M} $$",
+            "category": "Practice Test 2",
+            "ImagePath": "Chemistry_Free_Response/23"
+        }
+    ],
+    "Biology_Free_Response": [
+        {
+            "Question": "In a city in Australia there is a population of moths that live in the grass, rarely taking flight except for short journeys. There are two phenotypes for wing color: green and beige. The largest predator of moths are birds and bats that prey upon the moths as they rest upon blades of grass. Green moths fare better in wet conditions when the grass takes on a lush green color and beige moths fare better in dry conditions when the grass turns a dry brown color.\nIdentify which color moth was the most plentiful between 1969 and 1995? (Answer is a single word.)",
+            "Answer (final answer highlighted)": "\\answer{Beige} Although the two moth colors take turns being the most plentiful, most of the years showed the beige colored moth being the most plentiful.",
+            "ImagePath": "Biology_Free_Response/1"
+        },
+        {
+            "Question": "In this Figure , the values above branches indicate bootstrapped confidence values. Branch lengths are proportional to percent similarity in viral envelope gene sequence. TBE: tick borne encephalitis; TSE: Turkish sheep encephalitis; GGE: Greek goat encephalitis; LI: louping ill virus; SSE: Spanish sheep encephalitis; KFD: Kyasanur Forest disease virus; TYU: Tyuleniy virus; SRE: Saumarez Reef virus.\nAre YF and SRE  are LEAST similar to GGE. \uff08Yes or No\uff09",
+            "Answer (final answer highlighted)": "\\answer{Yes} Two viruses with the least similarity to GGE are YF and SRE. Actually, YF and TYU and SRE are all distantly related to GGE.",
+            "ImagePath": "Biology_Free_Response/2"
+        },
+        {
+            "Question": "Researchers were interested in the effect of temperature on the respiration rate of crickets. Three chambers were prepared and kept at three different temperatures. A cricket was placed in each chamber. The CO2 levels in the chamber were recorded at 0 minutes, 5 minutes, and 10 minutes to assess the changing levels of CO2 over time. This process was repeated 50 times at each temperature. The results are indicated in the figure. Identify which temperature was associated with the highest respiration rate in the crickets.   (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{35} The highest respiration rate was found at 35\u00b0C, as that showed the greatest increase over time.",
+            "ImagePath": "Biology_Free_Response/3"
+        },
+        {
+            "Question": "Schizosaccharomyces pombe, or fission yeast, has a cell cycle that resembles that of mammalian cells. During interphase, fission yeast grow to twice their normal size, and at the end of mitosis, both daughter offspring are equal in size to the original parent cell. Genes that regulate the division of fission yeast are known as cell-division cycle, or cdc, genes.\n\nThe following experiments were conducted to determine the effect of cdc gene mutations on yeast cell division.\n\nExperiment 1\n\nIn order to determine the effect of cdc mutations, wild-type cells and mutants were grown at 37\u00b0C in the presence of a radioactive drug that specifically binds to the spindle apparatus. Stages of the cell cycle were elucidated for both cell types incubated at this temperature. At 37\u00b0C, temperature-sensitive cdc mutants were unable to re-enter interphase after mitosis. The illustration below depicts the results for wild-type cells and cdc mutants.\nExperiment 2\n\nCdc mutants were initially incubated at 25\u00b0C for 30 minutes and several rounds of mitosis occurred. Separate colonies were then exposed to temperatures near 37\u00b0C at different times during the cell cycle. For each colony, the cell cycle was arrested immediately after the last phase of mitosis.\n\n If the cdc mutants were initially incubated at 37\u00b0C and then switched to 25\u00b0C\uff0cwould the mutants grow? (Yes or No)\n",
+            "Answer (final answer highlighted)": "\\answer{No}If the mutants were started at 37\u00b0C, they would not grow. This is what happened in Experiment 1. If they were switched to 25\u00b0C, then they would be able to start growing.",
+            "ImagePath": "Biology_Free_Response/4"
+        },
+        {
+            "Question": "The diagram above is a pedigree of three generations showing the occurrence of two genetically transmitted diseases. Phenotypes of affected individuals are shown. Circles represent females, and squares represent males. Assume that the diseases are rare, unlinked, and that individuals not blood related to I-a and I-b (\"in-laws\") do not have either disease-producing allele.\nCalculate the ratios of affected males and affected females for Disease 2. (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{5/21}\nThere are 21 males and 5 are affected = 5/21\n\n",
+            "ImagePath": "Biology_Free_Response/5"
+        },
+        {
+            "Question": "The diagram above is a pedigree of three generations showing the occurrence of two genetically transmitted diseases. Phenotypes of affected individuals are shown. Circles represent females, and squares represent males. Assume that the diseases are rare, unlinked, and that individuals not blood related to I-a and I-b (\"in-laws\") do not have either disease-producing allele.\nCalculate the ratios of  affected females for Disease 2. (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{0}\n\nThere are 20 females and 0 are affected = 0/21",
+            "ImagePath": "Biology_Free_Response/5"
+        },
+        {
+            "Question": "In this fictional scenario, an enzyme was discovered in reptile feces, gertimtonase, that was believed to aid in digestion and water retention. Researchers wanted to know how the enzyme's activity level changed with varying temperature. The scientists took fecal samples of Russian tortoises that were living in varying environmental temperatures. The data was summarized in the following graph.\nDesert tortoises live in environments where the ground temperature can exceed 60\u00b0C. Using the data above, predict how the graph would look for desert tortoise gertimtonase. Would the graph's peak would shift to the higher temperatures? (Yes or No)",
+            "Answer (final answer highlighted)": "\\answer{Yes}.  The graph's peak would shift to the higher temperatures. Because the tortoise has lived in the desert for many years, its enzymes would be optimized for a higher temperature. Therefore, we would expect to see the peak around 60\u00b0C with reaction rates dropping significantly at lower and higher temperatures.",
+            "ImagePath": "Biology_Free_Response/6"
+        },
+        {
+            "Question": "Diabetes mellitus type 2 (T2DM) is a metabolic disorder characterized by insulin resistance on the part of the body's tissues. Onset is usually much later in life and highly associated with obesity. A recent study evaluated the relative dysfunction of mitochondria of individuals who were lean, obese, and diabetic (type 2). Muscle biopsies were taken both prior to and after a twenty-week exercise program. The mitochondrial mass was measured by cardiolipin, the citric acid cycle was measured by citrate synthase, and electron transport chain activity was measured by NADH oxidase levels. The results are shown below in the table.\n\nTable 1. Mean (upper rows) and standard error (lower rows) measurements for markers of ETC activity, in relative units normalized to creatine kinase activity.\nIdentify which group did not show an increase in cardiolipin after exercise was done.  (Answer is a single word.)",
+            "Answer (final answer highlighted)": "\\answer{Obese} The obese group did not show an increase after exercise. Although the numbers 72 and 83 seem different, when the std error is considered, the values overlap: 72 + 7.9 = 79.9 and 83 - 4.8 = 78.2. The lean and T2DM participants each saw an increase in cardiolipin with exercise.",
+            "ImagePath": "Biology_Free_Response/7"
+        },
+        {
+            "Question": "Identify the number of species with no natural predator on this food web.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{7 } There are 7 species that have no natural predator (they have no lines pointing away from them)\\",
+            "ImagePath": "Biology_Free_Response/8"
+        },
+        {
+            "Question": "Basking sharks, which can grow up to 10 m in length, have been recorded jumping out of the water as high and as fast as great white sharks. Marine biologists are unsure why they do this but have pointed to this phenomenon as evidence of how much we still have to learn about marine life. The sharks are speculated to jump out of the water only off the shores of Scotland, where they have been observed previously. A team of scientists wanted to determine if basking sharks in other areas of northern Europe can jump to similar heights. The following data were obtained by that team.\nBasking sharks are endotherms like most other sharks. Predict how the environment may differ between the Cornwall sampling site and the Isle of Man site, would the temperature increase or decrease? (Answer is a single word.)\n ",
+            "Answer (final answer highlighted)": "\\answer{Increase} As basking sharks are endothermic, this means that the temperature of their environment determines their metabolism. Therefore, higher temperatures would mean increased activity. Since Cornwall sharks show an increase in jump height compared to Isle of Man, we could predict that the Cornwall site had a higher temperature compared to the Isle of Man.",
+            "ImagePath": "Biology_Free_Response/9"
+        },
+        {
+            "Question": "Photosynthesis is the process plants use to derive energy from sunlight and is associated with a cell's chloroplasts. The energy is used to produce carbohydrates from carbon dioxide and water. Photosynthesis involves light and dark phases. Figure 1 represents two initial steps associated with the light phase.\n\nThe light phase supplies the dark phase with NADPH and a high-energy substrate.\n\nA researcher attempted to produce a photosynthetic system outside the living organism according to the following protocols:\n\nChloroplasts were extracted from green leaves and ruptured, and their membranes were thereby exposed, then a solution of hexachloroplatinate ions carrying a charge of -2 was added.\n\nThe structure of the composite was analyzed, and the amount of oxygen produced by the system was measured.\n\nThe researcher concluded that the ions were bound to the membrane's Photosystem 1 site by the attraction of opposite charges. The resulting composite is shown in Figure 2. It was found that the hexachloroplatinate-membrane composite was photosynthetically active.\nPredict how the dark phases of photosynthesis were affected during this experiment, would it be active or not? (Yes or No)\n\n",
+            "Answer (final answer highlighted)": "\\answer{Yes} The dark phases would be active.",
+            "ImagePath": "Biology_Free_Response/10"
+        },
+        {
+            "Question": "The pedigree shown in Figure 1, numbered by individual, tracks the instances of color blindness within the family. Squares are male, circles are female, and each half of a shape represents one of the two copies of the gene. Shading represents that the allele for color blindness is present.\nOf the individuals with a \"?\", identify which of them is heterozygous.  (Final Answer is a value)\n ",
+            "Answer (final answer highlighted)": "\\answer{11} \nIndividual 11 must be heterozygous. She must have passed on a colorblind copy of an X-chromosome since her daughter is color-blind and must have received a color-blind allele from each of her parents. She is not homozygous recessive since she has sons that received an X from her and they are not affected so the X must have been normal. So she must be a heterozygote.",
+            "ImagePath": "Biology_Free_Response/11"
+        },
+        {
+            "Question": "An experiment was conducted to observe the light-absorbing properties of chlorophylls and carotenoids using a spectrophotometer. The pigments were first extracted and dissolved in a solution. They were then illuminated with pure light of different wavelengths to detect which wavelengths were absorbed by the solution. The results are presented in the absorption spectrum below.\nAt approximately what wavelength does chlorophyll a maximally absorb light?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{425} If you look at the absorption spectrum, you'll see that chlorophyll a has two peaks, one at 425 nm and one at 680 nm. Chlorophyll a maximally absorbs light at approximately 425 nm.",
+            "ImagePath": "Biology_Free_Response/12"
+        },
+        {
+            "Question": "The loss of water by evaporation from the leaf openings is known as transpiration. The transpiration rates of various plants are shown below.\n\nHow many liters of water per week are lost by a coconut palm?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{525} Make sure you read the question carefully. You are asked to calculate the number of liters per week, not per day. The chart tells us that a coconut palm loses 75 liters a day, which would mean 525 liters a week (7 \u00d7 75 = 525).\n\n",
+            "ImagePath": "Biology_Free_Response/13"
+        },
+        {
+            "Question": "Here is a graph that shows a growth curve for a population of bacteria.\n\n\n\nCalculate the mean rate of population growth between day 2 and day 4. Give your answer to the nearest whole number  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{30000} Use the formula from the reference table to determine the per capita rate increase: $\\Delta N$ / $\\Delta T$, where $\\Delta N$= change in population size, and $\\Delta T$ = time interval. In this example, $\\Delta N$ = 20,000 to 80,000 = 60,000 and $\\Delta T$ = 2 days.$",
+            "ImagePath": "Biology_Free_Response/14"
+        },
+        {
+            "Question": "Here is a sketch that shows Earth\u2019s water cycle including the oceans and continents. Assuming that total precipitation equals total evaporation, what is the value of evaporation from the land to the atmosphere?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{71e15}\nAdd up all the precipitation from the maritime and continental atmospheres. Subtract that value from the evaporation from the oceans.\n\n$(398 \\times 10^{15}) + (107 \\times 10^{15}) = 505 \u00d7 10^{15}$\n$(505 \\times 10^{15} \u2013 (434 \\times 10^{15}) = 71 \u00d7 10^{15}$",
+            "ImagePath": "Biology_Free_Response/15"
+        },
+        {
+            "Question": "Here is a graph showing the amount of product formed during an enyzyme-mediated reaction. Calculate the mean rate of product formed in the first 90 seconds.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{4.4e-4} Remember that this type of problem can apply to many topics in science. Divide the amount of product formed, 0.04, by the time, 90 seconds.\n\n$0.04 \\div 90 = 0.00044 = 4.4 \\times 10^{-4}$",
+            "ImagePath": "Biology_Free_Response/16"
+        },
+        {
+            "Question": "The behavior of Anolis lizards is influenced by the altitude of their habitats: the higher the altitude, the greater the amount of time that lizards bask in the sun. The following graph tracks the body temperatures of two species of Anolis at various habitat altitudes. According to the information in the graph, how many degrees warmer is the body temperature of an A. shrevei lizard at 2000 m than that of an A. cybotes lizard at 5 m when the air temperature is 25\u00b0C? Express your answer in \u00b0C to the nearest tenth.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{4} At 25\u00b0C, the body temperature of A. shrevei is 30.5\u00b0C. For A cybotes, its body temperature is 26.5\u00b0C. The difference between the two is 4.0 (30.5 \u2013 26.5 = 4.0). Be sure to express your answer to the nearest tenth, as requested, even if that digit is 0. See the following graph.",
+            "ImagePath": "Biology_Free_Response/17"
+        },
+        {
+            "Question": "Photosynthetic activity can vary with both light intensities and leaf temperature. Solid lines in the following graph plot the rate of photosynthesis as a function of carbon dioxide uptake, leaf temperature, and light intensity. The dashed line plots the rate of respiration that occurs at the same time as photosynthesis. The compensation point occurs when photosynthesis and respiration rates are equal. According to the information in the graph, how much warmer is leaf temperature at the compensation point when light intensity is 11.5 kJ/m2/min than when light intensity is 2.7 kJ/m2/min? Express your answer in \u00b0C to the nearest tenth.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{12.5} The compensation point when the light intensity is 11.5 kJ/m2/min is 40\u00b0C. At light intensity 2.7 kJ/m2/min, the compensation point occurs at 27.5\u00b0C. Thus, the increase is 12.5\u00b0C (40 \u2013 27.5 = 12.5).",
+            "ImagePath": "Biology_Free_Response/18"
+        },
+        {
+            "Question": "The following figure shows the transfer of energy through a forest community. According to the information in the figure, what is the proportion of energy entering the first trophic level that is passed to the second trophic level? Express your answer as a value between 0 and 1, rounded to the nearest hundredth.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{0.12} The proportion is calculated as follows.\n$\\frac{3 \\times 10^3}{2.5 \\times 10^4} = \\frac{3000}{25000} = \\frac{3}{25} = 0.12$\n",
+            "ImagePath": "Biology_Free_Response/19"
+        },
+        {
+            "Question": "A mutation of an X-linked, recessive allele is lethal. Male fetuses that inherit the allele and female fetuses that are homozygous recessive abort before birth. What is the probability that a child born to a female who is heterozygous for the mutation will have one copy of the allele? Express your answer as a decimal to the nearest hundredth.\nThe above graph shows the rate of an enzyme-mediated reaction. What is the rate of the reaction between 0 and 2 seconds? Express your answer as a decimal to the nearest tenth. \n (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{4} The rate of reaction is the slope of the plotted curve between 0 and 2 seconds. Since the plot is a straight line over this interval, the rate of the reaction is constant and the slope at any point along this portion of the line will provide the rate. For the entire interval from 0 to 2 seconds, the slope, determined by the change in product formed divided by the change in time, is (8-0) / (2-0) = 4",
+            "ImagePath": "Biology_Free_Response/20"
+        },
+        {
+            "Question": "The figure above shows the flow of energy in a community. What percent of the energy taken in by producers ends up in carnivores? Express your answer as a percent to the nearest tenth.  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{1.6} The energy taken in by producers is 20,950 kcal and that taken in by carnivores is 328 kcal. The fraction of carnivores obtained from producers is . Converted to a percent, 0.0157 \u00d7 100 = 1.6%.",
+            "ImagePath": "Biology_Free_Response/21"
+        },
+        {
+            "Question": "Five dialysis bags, made from a semipermeable membrane that is impermeable to glucose, were filled with various concentrations of glucose and placed in separate beakers containing 0.5 M glucose solution. The bags were weighed every 10 minutes and the percent change in mass for each bag was graphed.\nWhich line represents the bag that contained a solution isotonic to the 0.5 M solution? (Answer is a single letter.)",
+            "Answer (final answer highlighted)": "\\answer{C}. Line C showed no net change in weight, indicating the concentration of the solution inside the bag was the same (isotonic) as the solution in the beaker.",
+            "ImagePath": "Biology_Free_Response/22"
+        },
+        {
+            "Question": "Five dialysis bags, made from a semipermeable membrane that is impermeable to glucose, were filled with various concentrations of glucose and placed in separate beakers containing 0.5 M glucose solution. The bags were weighed every 10 minutes and the percent change in mass for each bag was graphed.\n\nWhich line represents that bag with the highest initial concentration of glucose?  (Answer is a single letter.)",
+            "Answer (final answer highlighted)": "\\answer{A}.The most water would diffuse into the most hypertonic solution; line A shows the biggest increase in weight.",
+            "ImagePath": "Biology_Free_Response/22"
+        },
+        {
+            "Question": "Five dialysis bags, made from a semipermeable membrane that is impermeable to glucose, were filled with various concentrations of glucose and placed in separate beakers containing 0.5 M glucose solution. The bags were weighed every 10 minutes and the percent change in mass for each bag was graphed.\n\nWhich line or lines represent bags that contain a solution that is hypertonic at 50 minutes?  (Answer is a single letter.)",
+            "Answer (final answer highlighted)": "\\answer{B}. Line B still shows an increase in weight at 50 minutes, whereas line A has leveled out and is isotonic at 50 minutes.\n\n",
+            "ImagePath": "Biology_Free_Response/22"
+        },
+        {
+            "Question": "Cystic fibrosis is an inherited disorder that produces a buildup of thick mucus in the lungs that leads to constricted airways, persistent coughing, and bacterial infections of the lungs. Also, mucus buildup from pancreatic cells blocks the secretion of pancreatic digestive enzymes and results in incomplete digestion and diarrhea. Life expectancy is 30 to 40 years for individuals who inherit two copies of the autosomal recessive trait.\n\nThe disorder is caused by a mutation in the cystic fibrosis transmembrane regulator (CFTR), an ATP-activated ion channel protein. Binding of ATP to CFTR triggers the opening of a channel that allows Cl- to passively flow across the plasma membrane. In epithelial lung cells, the channel enables the movement of Cl- out of the cell, though in other cell types, the channel can be structured so as to promote Cl- into the cell.\n\nIn normal individuals, epinephrine initiates a signal transduction pathway by binding to a G protein-coupled receptor (GPCR) on the plasma membrane of epithelial lung cells. The GPCR then activates an exchange of a GTP for a GDP on a nearby G protein. This G protein, now activated with the GTP, binds to the GPCR. This allows the release of a G subunit (G\u03b1) that binds to and activates adenylyl cyclase. Adenylyl cyclase then catalyzes the conversion of ATP to cyclic AMP (cAMP) and cAMP activates a protein kinase (PKA). PKA enables two ATP molecules to bind to the CFTR protein, triggering the opening of a gated channel in the CFTR and allowing for the passive passage of Cl- out of the cell.\n\nThe movement of Cl- into the extracellular fluid creates an electrochemical gradient across the plasma membrane that induces water to move out of the cell. A Na+/K+ pump, also activated by PKA and ATP, helps regulate the electrochemical gradient to maintain an appropriate surface liquid on the epithelial cells.  (Answer is a single word.)",
+            "Answer (final answer highlighted)": "\\answer{epinephrin} The signaling molecule, or ligand, is epinephrine. It initiates the signal transduction pathway when it binds to the G protein-coupled receptor. At the end of the pathway, a protein kinase (PKA) is activated which, in turn, activates the binding of an ATP to the CFTR protein, opening its gated Cl- channel.",
+            "ImagePath": "Biology_Free_Response/23"
+        },
+        {
+            "Question": "A biologist uses paper chromatography to separate pigments obtained from chloroplasts. In this procedure, leaf extracts containing a mixture of pigments are streaked near the bottom edge of a strip of chromatography paper. Chromatography paper is made of cellulose, an organic, polar molecule. The paper is mounted so that its bottom edge makes contact with a relatively nonpolar, organic solvent.\n\nAfter the paper touches the solvent, the solvent and the pigments in the leaf extract move up the chromatography paper. The figure that follows shows the leading edges of four pigments relative to the point of pigment application.\nThe Rf value of a pigment is the ratio of the distance traveled by a pigment to the distance traveled by the solvent. Which pigment has the greatest Rf value?  (Answer is a single word.)",
+            "Answer (final answer highlighted)": "\\answer{carotene} A. The R_f \\text{ value is the ratio of the distance traveled by a pigment to the distance traveled by the solvent. Carotene has traveled the farthest and its } R_f \\text{ value is } \\frac{48}{50} = 0.96. \\text{ For xanthophyll, } R_f = \\frac{40}{50} = 0.80; \\text{ for chlorophyll a, } R_f = \\frac{30}{50} = 0.60; \\text{ for chlorophyll b, } R_f = \\frac{25}{50} = 0.50.\n",
+            "ImagePath": "Biology_Free_Response/24"
+        },
+        {
+            "Question": "Long periods of studying or other kinds of stressful mental activity cause the buildup of adenosine molecules in brain tissue. Adenosine is a ligand that binds to a G protein-coupled receptor on brain cells, activating a G protein by replacing its bound GDP with a GTP. A subunit of the G protein then binds to and activates adenylyl cyclase (AC), a membrane-bound effector protein. Adenylyl cyclase then catalyzes the conversion of ATP to cyclic AMP (cAMP), a second messenger. The cellular response to cAMP varies widely in different types of cells. In brain cells and other cells of the central nervous system, cAMP activates a protein kinase (PKA), which slows brain activity and causes drowsiness. Normally, cAMP concentrations in the cell are kept low by the enzyme cAMP phosphodiesterase (PDE), converting cAMP to regular AMP (not cyclic). But high levels of cAMP can be attained during periods of mental fatigue or other kinds of stress.Does GTP bound to a subunit of the G protein activates adenylyl cyclase (AC)? (Yes of No)",
+            "Answer (final answer highlighted)": "\\answer{Yes}. When adenosine binds to the G protein-coupled receptor, it causes a GTP to replace the GDP attached to the inactive G protein. This exchange, a GTP for a GDP, activates the G protein. Activation causes a subunit of the G protein (G\u03b1), together with the GTP, to bind to and activate the membrane-bound effector protein, adenylyl cyclase (AC).",
+            "ImagePath": "Biology_Free_Response/25"
+        },
+        {
+            "Question": "Oxygen is transported throughout the body by hemoglobin molecules within red blood cells. The blood types A, B, and O identify red blood cells distinguished by specific sugars attached to membrane-bound proteins. There are three alleles (A, B, and O), two of which (A and B) code for enzymes that attach a specific sugar to the membrane-bound protein. The combination of any two of the three alleles results in six genotypes, producing four phenotypes, A, B, AB, and O.\n\nThe following figure of a phylogenetic tree shows the nucleotide substitutions, deletions, and insertions for one possible explanation for the evolution of the ABO allele group.\nAccording to the phylogenetic tree, what is the alleles that is the most likely ancestral?  (Answer is a single letter.)\n\n ",
+            "Answer (final answer highlighted)": "\\answer{A }. Because the A allele appears in the tree unaltered by substitutions, deletions, or insertions, it is the most ancestral allele.",
+            "ImagePath": "Biology_Free_Response/26"
+        },
+        {
+            "Question": "Oxygen is transported throughout the body by hemoglobin molecules within red blood cells. The blood types A, B, and O identify red blood cells distinguished by specific sugars attached to membrane-bound proteins. There are three alleles (A, B, and O), two of which (A and B) code for enzymes that attach a specific sugar to the membrane-bound protein. The combination of any two of the three alleles results in six genotypes, producing four phenotypes, A, B, AB, and O.\n\nThe following figure of a phylogenetic tree shows the nucleotide substitutions, deletions, and insertions for one possible explanation for the evolution of the ABO allele group.\nIf the exon of the A allele contains 1065 nucleotides, how many nucleotides code for the B allele?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{1065}. The B allele differs from the A allele by 7 substitutions, 1 deletion, and 1 insertion. Thus, the total number of nucleotides remains the same as the A allele with 1065 nucleotides (1065 \u2013 1 + 1 = 1065). Substitutions are replacements for existing nucleotides and do not increase or decrease the total number.",
+            "ImagePath": "Biology_Free_Response/26"
+        },
+        {
+            "Question": "Questions refer to the graph below that plots the temperature of water as a function of heat energy absorbed.\n\n\n\n1. What state of matter does the line labeled X represent?  (Answer is a single word.)",
+            "Answer (final answer highlighted)": "\\answer{liquid}. The line labeled X represents liquid water as it changes temperature from 0\u00b0C to 100\u00b0C.",
+            "ImagePath": "Biology_Free_Response/27"
+        },
+        {
+            "Question": "Questions refer to the graph below that plots the temperature of water as a function of heat energy absorbed.\n\n\nWhat part of the graph represents the cooling effect of sweating?  (Answer is a single letter.)",
+            "Answer (final answer highlighted)": "\\answer{Y}. Sweating cools bodies because the energy used to change the liquid state of the sweat to the gas state comes from our bodies. When we lose body energy to this process, we feel cooled. The stage on the graph that represents the change from liquid to gas is labeled Y.",
+            "ImagePath": "Biology_Free_Response/27"
+        },
+        {
+            "Question": "Questions refer to the following figure showing the replicative cycle of an RNA retrovirus such as HIV, the AIDS virus.\n\nDoes 'procee I' in the provided figure indicates reverse transcriptase? (Yes or No)",
+            "Answer (final answer highlighted)": "\\answer{Yes} The RNA genome of a retrovirus contains the enzyme reverse transcriptase. In process I in the figure, reverse transcriptase makes a DNA complement of the viral RNA molecule. In process II in the figure, reverse transcriptase makes a second DNA molecule to complete a viral double-stranded DNA (dsDNA) molecule.",
+            "ImagePath": "Biology_Free_Response/28"
+        },
+        {
+            "Question": "Questions refer to the following figure showing the replicative cycle of an RNA retrovirus such as HIV, the AIDS virus.\nWhat enzyme catalyzes the process III indicated as 'process I' in the provided figure, is it RNA polymerase? (Yes or No)\n\n",
+            "Answer (final answer highlighted)": "\\answer{Yes}. Once the viral double-stranded DNA incorporates into the host DNA (as a provirus), the viral genes are transcribed by RNA polymerase (in the same manner as the genes of the host).\n",
+            "ImagePath": "Biology_Free_Response/28"
+        },
+        {
+            "Question": "Questions refer to the following figure showing the replicative cycle of an RNA retrovirus such as HIV, the AIDS virus.\nIs proteins and glycoproteins the products of the viral replication process following 'process IV' as illustrated in the figure? (Yes or No)",
+            "Answer (final answer highlighted)": "\\answer{Yes} The assembly of an HIV virus requires two copies of the viral RNA (with the reverse transcriptase enzyme), viral proteins for the protein coat (capsid), and glycoproteins for the viral envelope. Viral mRNA is translated to produce the proteins; some of those proteins enter the endoplasmic reticulum, where they are modified into glycoproteins. The glycoproteins are transported to the plasma membrane by vesicles, where they merge with the virus as it leaves the cell.",
+            "ImagePath": "Biology_Free_Response/28"
+        },
+        {
+            "Question": "Questions refer to the following figure showing the replicative cycle of an RNA retrovirus such as HIV, the AIDS virus.\nWhere are viral genes transcribed into mRNA?  (Answer is a single word.)",
+            "Answer (final answer highlighted)": "\\answer{nucleus}. The viral genes exist in the dsDNA generated in the cytoplasm. The dsDNA enters the nucleus and merges with the host DNA, where it gets transcribed into mRNA along with the host DNA",
+            "ImagePath": "Biology_Free_Response/28"
+        },
+        {
+            "Question": "Questions refer to the following figure that illustrates the evolution of nine species from a single ancestral species. Roman numerals I through V identify different areas of the figure.\nIs stabilizing selection the factor that is responsible for evolution pattern indicated by area III? (Yes or No)",
+            "Answer (final answer highlighted)": "\\answer{Yes}. Area III represents a period of time with little or no evolutionary change maintained by stabilizing selection.",
+            "ImagePath": "Biology_Free_Response/29"
+        },
+        {
+            "Question": "Questions refer to the following figure that illustrates the evolution of nine species from a single ancestral species. Roman numerals I through V identify different areas of the figure.\nWhat evolutionary process is suggested by the pattern observed in the diagram if it represents the introduction of a single species to a remote, newly formed island? Choose from A.adaptive radiation\nB. allopatric speciation\nC. coevolution\nD. multiple occurrences of gene flow  \n(Answer is a single letter.)",
+            "Answer (final answer highlighted)": "\\answer{A}. \nAdaptive radiation can occur when a single species is introduced into an unoccupied area with many available niches. Rapid evolution of many species occurs as the available niches are exploited. Once all the niches are filled, evolutionary rates decline.",
+            "ImagePath": "Biology_Free_Response/29"
+        },
+        {
+            "Question": "The graph that follows shows the absorption spectra for individual pigments found inside a chloroplast and the action spectrum for photosynthesis.\nIs Chlorophylls c the pigment that absorbs the most light at the longest wavelengths? (Yes or No)",
+            "Answer (final answer highlighted)": "\\answer{Yes} Chlorophylls a and b have absorption peaks in the long wavelength area (between 650 and 750 nm). Of the two, chlorophyll a has the greatest absorption at the longest wavelength of light.",
+            "ImagePath": "Biology_Free_Response/30"
+        },
+        {
+            "Question": "The graph that follows shows the absorption spectra for individual pigments found inside a chloroplast and the action spectrum for photosynthesis.\nAt what wavelength of light is the rate of photosynthesis greatest?",
+            "Answer (final answer highlighted)": "\\answer{450}. The action spectrum is a plot of photosynthetic rate against light wavelengths absorbed. The highest rate of photosynthetic activity occurs at about 450 nm",
+            "ImagePath": "Biology_Free_Response/30"
+        },
+        {
+            "Question": "In a heavily populated suburb, two cougars were once spotted roaming in a small field. Local wildlife experts, though not surprised, warned the public to be aware of their surroundings and to keep small pets protected. A group of local junior high school students were curious about the population of cougars in the area since no one they asked had ever seen one in the area. With the help of local wildlife enthusiasts and carefully placed motion-activated wildlife cameras, the group of students recorded sightings of animals in a local forest preserve for their entire four years of high school. The results are shown below.\nWhat species is the most probable primary prey for the cougar population according to the figure?  (Answer is a single word.)",
+            "Answer (final answer highlighted)": "\\answer{deer}. The cougar population is shown to be decreasing over time. One possible explanation for the decline may be due to a disappearing food source, so the food source should also show a decrease over time. The only animal that also shows a decreasing population is deer.",
+            "ImagePath": "Biology_Free_Response/31"
+        },
+        {
+            "Question": "In a heavily populated suburb, two cougars were once spotted roaming in a small field. Local wildlife experts, though not surprised, warned the public to be aware of their surroundings and to keep small pets protected. A group of local junior high school students were curious about the population of cougars in the area since no one they asked had ever seen one in the area. With the help of local wildlife enthusiasts and carefully placed motion-activated wildlife cameras, the group of students recorded sightings of animals in a local forest preserve for their entire four years of high school. The results are shown below.\nDid the graph indicates that the following population does NOT demonstrate exponential growth?\n\nI. Cougar\n\nII. Chipmunk\n\nIII. Deer\n(Yes or No)",
+            "Answer (final answer highlighted)": "\\answer{Yes}. None of the populations demonstrate exponential growth because they each have a carrying capacity that sets a limit on their growth. Only populations growing as fast as they can reproduce at a maximal amount will grow at an exponential rate.",
+            "ImagePath": "Biology_Free_Response/31"
+        },
+        {
+            "Question": "The enzymatic catalysis of a reaction essential in the production of dog saliva is mediated by the protein ARKKKK60491. ARKKKK60491 is a homodimer, with each subunit being 337 amino acids. Figure 1, below, indicates a modular structure of the homodimer. Three positions are indicated on the model. Position A is the active site. Position B is a region known to have a large number of nonpolar residues. Position C is known to have a large number of charged residues.\nA mutation is discovered in the gene for ARKKKK60491 that converts positively charged lysine residue into negatively charged glutamic acid residue. This single change directly impacts the location where the substrate to ARKKKK60491 attaches during catalysis. Which position is likely affected by this change? \nI. Position A\n\nII. Position B\n\nIII. Position C\n (Answer is a single letter.)",
+            "Answer (final answer highlighted)": "\\answer{I}.The question states that the change affects the place where the substrate binds, which is defined as the active site. Position A is identified as the active site.",
+            "ImagePath": "Biology_Free_Response/32"
+        },
+        {
+            "Question": "The enzymatic catalysis of a reaction essential in the production of dog saliva is mediated by the protein ARKKKK60491. ARKKKK60491 is a homodimer, with each subunit being 337 amino acids. Figure 1, below, indicates a modular structure of the homodimer. Three positions are indicated on the model. Position A is the active site. Position B is a region known to have a large number of nonpolar residues. Position C is known to have a large number of charged residues.\nAccording to Figure 1, within the protein ARKKKK60491, does Position A contain polypeptide N-termini?\n\n",
+            "Answer (final answer highlighted)": "\\answer{No}. The protein is known to be a homodimer, so it must have two polypeptides in it. Each polypeptide has one N-terminus, so this dimer protein would have two. They would not occur at the active site, so Position A should not be in the answer.",
+            "ImagePath": "Biology_Free_Response/32"
+        },
+        {
+            "Question": "An experiment is performed to evaluate the amount of DNA present during a complete cell cycle. All of the cells were synced prior to the start of the experiment. During the experiment, a fluorescent chemical was applied to cells, which would fluoresce only when bound to DNA. The results of the experiment are shown above. Differences in cell appearance by microscopy or changes in detected DNA were determined to be phases of the cell cycle and are labeled with the letters A-D.\nApproximately how long does S phase take to occur in these cells?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{30}. The synthesis, or S phase, of the cell cycle represents the step in which the genetic material is duplicated. The only phase labeled in the experiment that represents an increase is phase B. Based on the time scale on the x-axis, this phase lasts approximately 30 minutes.",
+            "ImagePath": "Biology_Free_Response/33"
+        },
+        {
+            "Question": "An experiment is performed to evaluate the amount of DNA present during a complete cell cycle. All of the cells were synced prior to the start of the experiment. During the experiment, a fluorescent chemical was applied to cells, which would fluoresce only when bound to DNA. The results of the experiment are shown above. Differences in cell appearance by microscopy or changes in detected DNA were determined to be phases of the cell cycle and are labeled with the letters A-D.\nWhat phase in the experiment corresponds to the cell undergoing anaphase?\n (Answer is a single letter.)",
+            "Answer (final answer highlighted)": "\\answer{D}. Anaphase represents the cell division stage of the cell cycle and would be the phase that occurs right before the amount of genetic material should decrease. Phase D is the phase right before the genetic material would drop.",
+            "ImagePath": "Biology_Free_Response/33"
+        },
+        {
+            "Question": "The cell cycle is a series of events in the life of a dividing eukaryotic cell. It consists of four stages: G1, S, G2, and M. The duration of the cell cycle varies from one species to another and from one cell type to another. The G1 phase varies the most. For example, embryonic cells can pass through the G1 phase so quickly that it hardly exists, whereas neurons are arrested in the cell cycle and do not divide. According to the figure, During which phase do chromosomes replicate?\nAccording to the figure provided, which is the LEAST possible location for Gerdellen to be placed? (Answer is a single letter.)",
+            "Answer (final answer highlighted)": "\\answer{S}. Chromosomes replicate during interphase, the S phase. During G1 and G2, the cell makes protein and performs other metabolic duties.",
+            "ImagePath": "Biology_Free_Response/34"
+        },
+        {
+            "Question": "Questions below refer to the following figures which show 5 species of insects that were discovered on a previously unknown island and were named as shown in the table. Proteomic analysis was performed on a highly conserved protein in the insects and the number of amino acid differences was calculated and included in the table below. The scientists used this data to create the phylogenetic tree shown below with positions labeled I, II, III, and IV as well as O, P, Q, R, and S.\nAccording to the figure provided,which species is the out-group?  (Answer is a single word.)",
+            "Answer (final answer highlighted)": "\\answer{Snippeiq} Snippeiq is the out-group because it is the least related to the other species. The table shows that Snippeiq has the most differences from all of the other species",
+            "ImagePath": "Biology_Free_Response/35"
+        },
+        {
+            "Question": "Questions below refer to the following figures which show 5 species of insects that were discovered on a previously unknown island and were named as shown in the table. Proteomic analysis was performed on a highly conserved protein in the insects and the number of amino acid differences was calculated and included in the table below. The scientists used this data to create the phylogenetic tree shown below with positions labeled I, II, III, and IV as well as O, P, Q, R, and S.\nAccording to the figure provided,which is the LEAST possible location for Gerdellen to be placed?  (Answer is a single letter.)",
+            "Answer (final answer highlighted)": "\\answer{S}. Since Snippeiq has the most differences with the other organisms it must be at position S. This means that Gerdellen cannot be there, which makes (D) the best answer. (Position Q or R is the best position for Gerdellen, though positions O and P could possibly be correct as well.)",
+            "ImagePath": "Biology_Free_Response/35"
+        },
+        {
+            "Question": "Hemophilia is an X-linked disease associated with the inability to produce specific proteins in the blood-clotting pathway. In this Figure, the family members afflicted with the disease are shown with filled-in squares (male) or circles (females). A couple is trying to determine the likelihood of passing on the disease to their future children (represented by the ? symbol above) because the hemophilia runs in the woman\u2019s family.\nAssuming that the woman in the couple is a carrier, what is the probability that the couple\u2019s first son will have hemophilia?  (Final Answer is a value)",
+            "Answer (final answer highlighted)": "\\answer{0.5}. Because the woman is a carrier, she must have one normal copy of the X chromosome and one diseased copy. Since the boy will receive an X chromosome from his mother, there is a 50 percent chance that he will receive a diseased copy. Because he doesn't have a second X chromosome, he must have the disease if he receives the diseased X chromosome.",
+            "ImagePath": "Biology_Free_Response/36"
+        }
+    ]
+}
