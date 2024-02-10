@@ -1,6 +1,6 @@
 # SceMQA 
 
-[**🌐 Homepage**](https://scemqa.github.io/) | [**🤗 Dataset**]() | [**🤗 Paper**]() | [**📖 arXiv**]() | [**GitHub**](https://github.com/SceMQA/SceMQA)
+[**🌐 Homepage**](https://scemqa.github.io/) | [**🤗 Dataset**](https://github.com/SceMQA/SceMQA) | [**🤗 Paper**](https://huggingface.co/papers/2402.05138) | [**📖 arXiv**](https://arxiv.org/abs/2402.05138) | [**GitHub**](https://github.com/SceMQA/SceMQA)
 
 
 This repo contains the evaluation code for the paper "[SceMQA: A Scientific College Entrance Level Multimodal Question Answering Benchmark]()"
