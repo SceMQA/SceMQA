@@ -23,44 +23,27 @@ SceMQA was created to challenge multimodal models with tasks that demand college
 <!-- Please refer to our [eval](eval) folder for more details. -->
 
 ## 🏆 Mini-Leaderboard
-| Model                      | Val |
-|----------------------------|:---------:|
-<!-- | Expert (Best)              |   88.6    |      -       |
-| Expert (Medium)            |   82.6    |      -       |
-| Expert (Worst)             |   76.2    |      -       |
-| Gemini Ultra*              | **59.4**  |      -       |
-| GPT-4V(ision) (Playground) |   56.8    |   **55.7**   |
-| Qwen-VL-MAX*               |   51.4    |     46.8     |
-| LLaVA-1.6-34B*             |   51.1    |     44.7     |
-| Adept Fuyu-Heavy*          |   48.3    |      -       |
-| Gemini Pro*                |   47.9    |      -       |
-| Yi-VL-34B*                 |   45.9    |     41.6     |
-| Qwen-VL-PLUS*              |   45.2    |     40.8     |
-| Marco-VL*                  |   41.2    |     40.4     |
-| InternLM-XComposer2-VL*    |   43.0    |     38.2     |
-| Yi-VL-6B*                  |   39.1    |     37.8     |
-| InfiMM-Zephyr-7B*          |   39.4    |     35.5     |
-| InternVL-Chat-V1.1*        |   39.1    |     35.3     |
-| SVIT*                      |   38.0    |     34.1     |
-| Emu2-Chat*                 |   36.3    |     34.1     |
-| BLIP-2 FLAN-T5-XXL         |   35.4    |     34.0     |
-| InstructBLIP-T5-XXL        |   35.7    |     33.8     |
-| LLaVA-1.5-13B              |   36.4    |     33.6     |
-| Qwen-VL-7B-Chat            |   35.9    |     32.9     |
-| SPHINX*                    |   32.9    |     32.9     |
-| mPLUG-OWL2*                |   32.7    |     32.1     |
-| BLIP-2 FLAN-T5-XL          |   34.4    |     31.0     |
-| InstructBLIP-T5-XL         |   32.9    |     30.6     |
-| Gemini Nano2*              |   32.6    |      -       |
-| CogVLM                     |   32.1    |     30.1     |
-| Otter                      |   32.2    |     29.1     |
-| LLaMA-Adapter2-7B          |   29.8    |     27.7     |
-| MiniGPT4-Vicuna-13B        |   26.8    |     27.6     |
-| Adept Fuyu-8B              |   27.9    |     27.4     |
-| Kosmos2                    |   24.4    |     26.6     |
-| OpenFlamingo2-9B           |   28.7    |     26.3     |
-| Frequent Choice            |   22.1    |     23.9     |
-| Random Choice              |   26.8    |     25.8     |
+| Model                      | Setting       | Val (MC) | Val (FR) |
+|----------------------------|---------------|:--------:|:--------:|
+| **Open-sourced models**    |               |          |          |
+| InstructBLIP-7B            |               | 20.48    | 12.50    |
+| InstructBLIP-13B           |               | 21.31    | 13.50    |
+| MiniGPT4-7B                |               | 21.90    | 6.50     |
+| MiniGPT4-13B               |               | 27.74    | 7.00     |
+| LLaVA1.5-7B                |               | 27.50    | 10.50    |
+| LLaVA1.5-13B               |               | 31.19    | 13.00    |
+| Yi-VL-6B                   |               | 37.14    | 5.50     |
+| Deepseek-VL-Chat-7B        |               | 26.79    | 14.00    |
+| InternLM-XComposer2-7B     |               | 30.48    | 13.00    |
+| Qwen-VL-chat               |               | 26.55    | 7.00     |
+| **Closed-sourced models**  |               |          |          |
+| Google Bard                | Text-only     | 41.31    | -        |
+| Gemini Pro                 | Text-only     | 30.06    | 15.00    |
+| Gemini Pro                 | Few-shot      | 38.34    | 19.50    |
+| Gemini Pro                 | Zero-shot     | 41.18    | 21.50    |
+| GPT4-V                     | Text-only     | 51.24    | 21.50    |
+| GPT4-V                     | Few-shot      | 58.70    | 33.00    |
+| GPT4-V                     | Zero-shot     | 60.83    | 36.00    |
 
 *: results provided by the authors. -->
 
