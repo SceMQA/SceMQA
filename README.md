@@ -61,7 +61,7 @@ Should you encounter any data samples potentially breaching the copyright or lic
 ```bibtex
 @article{
   title={SceMQA: A Scientific College Entrance Level Multimodal Question Answering Benchmark},
-  author={Liang, Zhenwen and Guo, Kehan and Liu, Gang and Guo, Taicheng and Zhou, Yujun and Yang, Tianyu and Zhang, Jipeng and Pi, Renjie and Zhang, Xiangliang},
+  author={Liang, Zhenwen and Guo, Kehan and Liu, Gang and Guo, Taicheng and Zhou, Yujun and Yang, Tianyu and Jiao, Jiajun and Zhang, Jipeng and Pi, Renjie and Zhang, Xiangliang},
   journal={GitHub repository},
   year={2024},
 }
